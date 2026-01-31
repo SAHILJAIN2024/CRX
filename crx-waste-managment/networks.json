@@ -1,0 +1,8 @@
+{
+  "sepolia": {
+    "CRX_WASTE_exchange": {
+      "address": "0x340E18FF8E4De6958977b2Bd8dF9A3bAB51ddD09",
+      "startBlock": 10163774
+    }
+  }
+}
