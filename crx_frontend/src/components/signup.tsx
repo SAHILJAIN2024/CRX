@@ -23,7 +23,7 @@ const Signup: React.FC = () => {
         ${
           address
             ? "bg-[#39FF14] text-black shadow-[0_0_15px_#39FF14] hover:shadow-[0_0_25px_#39FF14]"
-            : "bg-gradient-to-r from-[#9D00FF] to-[#FF2E88] shadow-[0_0_10px_#9D00FF] hover:from-[#FF2E88] hover:to-[#9D00FF] hover:shadow-[0_0_15px_#FF2E88] animate-pulse"
+            : "bg-gradient-to-r from-[#007206] to-[#39FF14] shadow-[0_0_10px_#9D00FF] hover:from-[#2eb2ff] hover:to-[#002fff] hover:shadow-[0_0_15px_#FF2E88] animate-pulse"
         }`}
     >
       {address ? (
