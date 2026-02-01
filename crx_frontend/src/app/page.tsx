@@ -168,8 +168,8 @@ const Dashboard: React.FC = () => {
             <h2 className="text-emerald-500 font-mono text-xs tracking-widest uppercase">Visual Journey</h2>
         </div>
         <ParallaxImage src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=1200" title="COLLECT" direction={1} />
-        <ParallaxImage src="https://images.unsplash.com/photo-1605600611284-195205ef9161?auto=format&fit=crop&w=1200" title="SORT" direction={-1} />
-        <ParallaxImage src="https://images.unsplash.com/photo-1591336395442-7daefbc9580a?auto=format&fit=crop&w=1200" title="PROCESS" direction={1} />
+        <ParallaxImage src="/download.jpg" title="SORT" direction={-1} />
+        <ParallaxImage src="/image3.jpg" title="PROCESS" direction={1} />
       </section>
 
       {/* Features Grid */}
