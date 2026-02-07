@@ -1,0 +1,501 @@
+bin_id,latitude,longitude,category,address
+101,28.593465,77.042375,Screens_Monitors,Dwarka Sector 21 Screens Monitors Bin
+102,28.597321,77.055578,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+103,28.525166,77.17552,Screens_Monitors,Saket Screens Monitors Bin
+104,28.662729,77.455281,Screens_Monitors,Ghaziabad Industrial Area Screens Monitors Bin
+105,28.703633,77.093958,Large_Equipment,Rohini Large Equipment Bin
+106,28.680359,77.440003,Large_Equipment,Ghaziabad Industrial Area Large Equipment Bin
+107,28.53222,77.187639,Large_Equipment,Saket Large Equipment Bin
+108,28.621235,77.203818,Hazardous_Lamps,Connaught Place Hazardous Lamps Bin
+109,28.533931,77.399388,Hazardous_Lamps,Noida Sector 18 Hazardous Lamps Bin
+110,28.547915,77.382947,Hazardous_Lamps,Noida Sector 18 Hazardous Lamps Bin
+111,28.453576,77.037014,Screens_Monitors,Gurgaon Cyber City Screens Monitors Bin
+112,28.656049,77.446008,Screens_Monitors,Ghaziabad Industrial Area Screens Monitors Bin
+113,28.595986,77.055956,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+114,28.703614,77.116481,Screens_Monitors,Rohini Screens Monitors Bin
+115,28.664743,77.45982,Small_IT_General,Ghaziabad Industrial Area Small IT General Bin
+116,28.606739,77.033391,Hazardous_Lamps,Dwarka Sector 21 Hazardous Lamps Bin
+117,28.548776,77.398133,Small_IT_General,Noida Sector 18 Small IT General Bin
+118,28.525747,77.405063,Screens_Monitors,Noida Sector 18 Screens Monitors Bin
+119,28.526234,77.401786,Large_Equipment,Noida Sector 18 Large Equipment Bin
+120,28.537062,77.254418,Large_Equipment,Nehru Place Large Equipment Bin
+121,28.690555,77.102704,Large_Equipment,Rohini Large Equipment Bin
+122,28.535482,77.39265,Hazardous_Lamps,Noida Sector 18 Hazardous Lamps Bin
+123,28.697466,77.107762,Large_Equipment,Rohini Large Equipment Bin
+124,28.606488,77.200678,Screens_Monitors,Connaught Place Screens Monitors Bin
+125,28.544597,77.263716,Hazardous_Lamps,Nehru Place Hazardous Lamps Bin
+126,28.712636,77.117152,Large_Equipment,Rohini Large Equipment Bin
+127,28.705505,77.091045,Hazardous_Lamps,Rohini Hazardous Lamps Bin
+128,28.691778,77.115791,Screens_Monitors,Rohini Screens Monitors Bin
+129,28.539422,77.254579,Hazardous_Lamps,Nehru Place Hazardous Lamps Bin
+130,28.522983,77.379881,Hazardous_Lamps,Noida Sector 18 Hazardous Lamps Bin
+131,28.617,77.196475,Screens_Monitors,Connaught Place Screens Monitors Bin
+132,28.535328,77.191582,Large_Equipment,Saket Large Equipment Bin
+133,28.56274,77.257182,Screens_Monitors,Nehru Place Screens Monitors Bin
+134,28.51122,77.192801,Hazardous_Lamps,Saket Hazardous Lamps Bin
+135,28.606556,77.051857,Large_Equipment,Dwarka Sector 21 Large Equipment Bin
+136,28.560451,77.261064,Screens_Monitors,Nehru Place Screens Monitors Bin
+137,28.54849,77.282344,Small_IT_General,Nehru Place Small IT General Bin
+138,28.613662,77.208473,Small_IT_General,Connaught Place Small IT General Bin
+139,28.519861,77.187188,Large_Equipment,Saket Large Equipment Bin
+140,28.583538,77.049155,Hazardous_Lamps,Dwarka Sector 21 Hazardous Lamps Bin
+141,28.699706,77.095927,Hazardous_Lamps,Rohini Hazardous Lamps Bin
+142,28.548063,77.381198,Hazardous_Lamps,Noida Sector 18 Hazardous Lamps Bin
+143,28.697395,77.107877,Small_IT_General,Rohini Small IT General Bin
+144,28.463095,77.022072,Hazardous_Lamps,Gurgaon Cyber City Hazardous Lamps Bin
+145,28.591641,77.057099,Large_Equipment,Dwarka Sector 21 Large Equipment Bin
+146,28.518707,77.196256,Hazardous_Lamps,Saket Hazardous Lamps Bin
+147,28.454402,77.029547,Small_IT_General,Gurgaon Cyber City Small IT General Bin
+148,28.579207,77.055595,Hazardous_Lamps,Dwarka Sector 21 Hazardous Lamps Bin
+149,28.677485,77.446748,Large_Equipment,Ghaziabad Industrial Area Large Equipment Bin
+150,28.530745,77.382464,Hazardous_Lamps,Noida Sector 18 Hazardous Lamps Bin
+151,28.696929,77.096012,Screens_Monitors,Rohini Screens Monitors Bin
+152,28.602148,77.222758,Large_Equipment,Connaught Place Large Equipment Bin
+153,28.713898,77.102376,Large_Equipment,Rohini Large Equipment Bin
+154,28.518224,77.171358,Hazardous_Lamps,Saket Hazardous Lamps Bin
+155,28.605595,77.048694,Large_Equipment,Dwarka Sector 21 Large Equipment Bin
+156,28.614704,77.21781,Hazardous_Lamps,Connaught Place Hazardous Lamps Bin
+157,28.470805,77.037085,Screens_Monitors,Gurgaon Cyber City Screens Monitors Bin
+158,28.530748,77.193021,Large_Equipment,Saket Large Equipment Bin
+159,28.531735,77.188692,Large_Equipment,Saket Large Equipment Bin
+160,28.665167,77.463368,Small_IT_General,Ghaziabad Industrial Area Small IT General Bin
+161,28.60499,77.059012,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+162,28.706731,77.088167,Screens_Monitors,Rohini Screens Monitors Bin
+163,28.532622,77.191654,Screens_Monitors,Saket Screens Monitors Bin
+164,28.655759,77.442424,Hazardous_Lamps,Ghaziabad Industrial Area Hazardous Lamps Bin
+165,28.61686,77.21071,Screens_Monitors,Connaught Place Screens Monitors Bin
+166,28.454124,77.026067,Small_IT_General,Gurgaon Cyber City Small IT General Bin
+167,28.595384,77.041444,Screens_Monitors,Dwarka Sector 21 Screens Monitors Bin
+168,28.615762,77.208524,Screens_Monitors,Connaught Place Screens Monitors Bin
+169,28.58085,77.031599,Large_Equipment,Dwarka Sector 21 Large Equipment Bin
+170,28.513795,77.177464,Hazardous_Lamps,Saket Hazardous Lamps Bin
+171,28.534021,77.198333,Hazardous_Lamps,Saket Hazardous Lamps Bin
+172,28.549462,77.281916,Small_IT_General,Nehru Place Small IT General Bin
+173,28.658807,77.444182,Small_IT_General,Ghaziabad Industrial Area Small IT General Bin
+174,28.554764,77.275414,Large_Equipment,Nehru Place Large Equipment Bin
+175,28.659394,77.459961,Screens_Monitors,Ghaziabad Industrial Area Screens Monitors Bin
+176,28.522456,77.185359,Screens_Monitors,Saket Screens Monitors Bin
+177,28.547116,77.277672,Screens_Monitors,Nehru Place Screens Monitors Bin
+178,28.577622,77.035568,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+179,28.455477,77.015032,Large_Equipment,Gurgaon Cyber City Large Equipment Bin
+180,28.599978,77.036252,Screens_Monitors,Dwarka Sector 21 Screens Monitors Bin
+181,28.557281,77.25563,Small_IT_General,Nehru Place Small IT General Bin
+182,28.604333,77.046535,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+183,28.559498,77.275313,Hazardous_Lamps,Nehru Place Hazardous Lamps Bin
+184,28.548124,77.270211,Small_IT_General,Nehru Place Small IT General Bin
+185,28.514235,77.171834,Screens_Monitors,Saket Screens Monitors Bin
+186,28.535611,77.184345,Small_IT_General,Saket Small IT General Bin
+187,28.54053,77.386424,Hazardous_Lamps,Noida Sector 18 Hazardous Lamps Bin
+188,28.511579,77.176752,Large_Equipment,Saket Large Equipment Bin
+189,28.547108,77.398958,Small_IT_General,Noida Sector 18 Small IT General Bin
+190,28.591784,77.034273,Hazardous_Lamps,Dwarka Sector 21 Hazardous Lamps Bin
+191,28.545461,77.264259,Large_Equipment,Nehru Place Large Equipment Bin
+192,28.619998,77.203118,Large_Equipment,Connaught Place Large Equipment Bin
+193,28.519532,77.179181,Screens_Monitors,Saket Screens Monitors Bin
+194,28.549657,77.277656,Small_IT_General,Nehru Place Small IT General Bin
+195,28.706079,77.097021,Hazardous_Lamps,Rohini Hazardous Lamps Bin
+196,28.60857,77.208852,Hazardous_Lamps,Connaught Place Hazardous Lamps Bin
+197,28.531303,77.386358,Large_Equipment,Noida Sector 18 Large Equipment Bin
+198,28.51,77.190763,Hazardous_Lamps,Saket Hazardous Lamps Bin
+199,28.586983,77.032863,Hazardous_Lamps,Dwarka Sector 21 Hazardous Lamps Bin
+200,28.607028,77.057759,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+201,28.538231,77.280635,Hazardous_Lamps,Nehru Place Hazardous Lamps Bin
+202,28.463753,77.028478,Large_Equipment,Gurgaon Cyber City Large Equipment Bin
+203,28.471325,77.01482,Small_IT_General,Gurgaon Cyber City Small IT General Bin
+204,28.550631,77.279231,Hazardous_Lamps,Nehru Place Hazardous Lamps Bin
+205,28.534835,77.387714,Small_IT_General,Noida Sector 18 Small IT General Bin
+206,28.584742,77.053353,Large_Equipment,Dwarka Sector 21 Large Equipment Bin
+207,28.547427,77.25408,Large_Equipment,Nehru Place Large Equipment Bin
+208,28.544765,77.388078,Small_IT_General,Noida Sector 18 Small IT General Bin
+209,28.529701,77.394535,Screens_Monitors,Noida Sector 18 Screens Monitors Bin
+210,28.549013,77.37801,Small_IT_General,Noida Sector 18 Small IT General Bin
+211,28.615518,77.195559,Screens_Monitors,Connaught Place Screens Monitors Bin
+212,28.445488,77.016218,Screens_Monitors,Gurgaon Cyber City Screens Monitors Bin
+213,28.463237,77.038217,Hazardous_Lamps,Gurgaon Cyber City Hazardous Lamps Bin
+214,28.591378,77.059209,Hazardous_Lamps,Dwarka Sector 21 Hazardous Lamps Bin
+215,28.620641,77.210548,Large_Equipment,Connaught Place Large Equipment Bin
+216,28.511518,77.196427,Large_Equipment,Saket Large Equipment Bin
+217,28.616084,77.211168,Large_Equipment,Connaught Place Large Equipment Bin
+218,28.605289,77.223657,Hazardous_Lamps,Connaught Place Hazardous Lamps Bin
+219,28.612723,77.218113,Large_Equipment,Connaught Place Large Equipment Bin
+220,28.626938,77.215858,Large_Equipment,Connaught Place Large Equipment Bin
+221,28.550173,77.377376,Hazardous_Lamps,Noida Sector 18 Hazardous Lamps Bin
+222,28.532914,77.378166,Small_IT_General,Noida Sector 18 Small IT General Bin
+223,28.597908,77.039046,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+224,28.543344,77.388123,Large_Equipment,Noida Sector 18 Large Equipment Bin
+225,28.605824,77.207045,Screens_Monitors,Connaught Place Screens Monitors Bin
+226,28.597864,77.06025,Screens_Monitors,Dwarka Sector 21 Screens Monitors Bin
+227,28.465637,77.032184,Large_Equipment,Gurgaon Cyber City Large Equipment Bin
+228,28.605476,77.033377,Hazardous_Lamps,Dwarka Sector 21 Hazardous Lamps Bin
+229,28.557872,77.274102,Screens_Monitors,Nehru Place Screens Monitors Bin
+230,28.5279,77.394129,Screens_Monitors,Noida Sector 18 Screens Monitors Bin
+231,28.61839,77.208911,Screens_Monitors,Connaught Place Screens Monitors Bin
+232,28.700873,77.09422,Large_Equipment,Rohini Large Equipment Bin
+233,28.613806,77.216956,Large_Equipment,Connaught Place Large Equipment Bin
+234,28.544801,77.402053,Large_Equipment,Noida Sector 18 Large Equipment Bin
+235,28.625816,77.216652,Large_Equipment,Connaught Place Large Equipment Bin
+236,28.703251,77.104913,Large_Equipment,Rohini Large Equipment Bin
+237,28.524658,77.194367,Small_IT_General,Saket Small IT General Bin
+238,28.533535,77.197393,Large_Equipment,Saket Large Equipment Bin
+239,28.678007,77.446746,Large_Equipment,Ghaziabad Industrial Area Large Equipment Bin
+240,28.525175,77.191309,Small_IT_General,Saket Small IT General Bin
+241,28.450824,77.029021,Screens_Monitors,Gurgaon Cyber City Screens Monitors Bin
+242,28.604074,77.04199,Hazardous_Lamps,Dwarka Sector 21 Hazardous Lamps Bin
+243,28.599967,77.204777,Hazardous_Lamps,Connaught Place Hazardous Lamps Bin
+244,28.587373,77.05263,Large_Equipment,Dwarka Sector 21 Large Equipment Bin
+245,28.58828,77.04291,Large_Equipment,Dwarka Sector 21 Large Equipment Bin
+246,28.446361,77.037307,Large_Equipment,Gurgaon Cyber City Large Equipment Bin
+247,28.450699,77.017449,Screens_Monitors,Gurgaon Cyber City Screens Monitors Bin
+248,28.52984,77.199895,Hazardous_Lamps,Saket Hazardous Lamps Bin
+249,28.56009,77.260994,Screens_Monitors,Nehru Place Screens Monitors Bin
+250,28.453118,77.027616,Screens_Monitors,Gurgaon Cyber City Screens Monitors Bin
+251,28.604846,77.054518,Hazardous_Lamps,Dwarka Sector 21 Hazardous Lamps Bin
+252,28.625033,77.194453,Large_Equipment,Connaught Place Large Equipment Bin
+253,28.513822,77.186921,Screens_Monitors,Saket Screens Monitors Bin
+254,28.458031,77.01348,Hazardous_Lamps,Gurgaon Cyber City Hazardous Lamps Bin
+255,28.656276,77.45156,Large_Equipment,Ghaziabad Industrial Area Large Equipment Bin
+256,28.511112,77.176087,Large_Equipment,Saket Large Equipment Bin
+257,28.549177,77.262849,Screens_Monitors,Nehru Place Screens Monitors Bin
+258,28.454995,77.040594,Large_Equipment,Gurgaon Cyber City Large Equipment Bin
+259,28.4676,77.017081,Small_IT_General,Gurgaon Cyber City Small IT General Bin
+260,28.616598,77.19518,Hazardous_Lamps,Connaught Place Hazardous Lamps Bin
+261,28.520939,77.377559,Small_IT_General,Noida Sector 18 Small IT General Bin
+262,28.705609,77.106108,Hazardous_Lamps,Rohini Hazardous Lamps Bin
+263,28.540843,77.283026,Hazardous_Lamps,Nehru Place Hazardous Lamps Bin
+264,28.605419,77.220851,Hazardous_Lamps,Connaught Place Hazardous Lamps Bin
+265,28.623747,77.196424,Large_Equipment,Connaught Place Large Equipment Bin
+266,28.603375,77.206133,Hazardous_Lamps,Connaught Place Hazardous Lamps Bin
+267,28.710328,77.098364,Large_Equipment,Rohini Large Equipment Bin
+268,28.682256,77.440606,Hazardous_Lamps,Ghaziabad Industrial Area Hazardous Lamps Bin
+269,28.58585,77.051988,Screens_Monitors,Dwarka Sector 21 Screens Monitors Bin
+270,28.697218,77.096608,Hazardous_Lamps,Rohini Hazardous Lamps Bin
+271,28.600986,77.220053,Screens_Monitors,Connaught Place Screens Monitors Bin
+272,28.539281,77.400158,Large_Equipment,Noida Sector 18 Large Equipment Bin
+273,28.544759,77.381971,Screens_Monitors,Noida Sector 18 Screens Monitors Bin
+274,28.461785,77.011733,Large_Equipment,Gurgaon Cyber City Large Equipment Bin
+275,28.460508,77.014759,Large_Equipment,Gurgaon Cyber City Large Equipment Bin
+276,28.528739,77.187808,Hazardous_Lamps,Saket Hazardous Lamps Bin
+277,28.563855,77.262118,Large_Equipment,Nehru Place Large Equipment Bin
+278,28.451919,77.018823,Hazardous_Lamps,Gurgaon Cyber City Hazardous Lamps Bin
+279,28.676277,77.440525,Screens_Monitors,Ghaziabad Industrial Area Screens Monitors Bin
+280,28.534201,77.18293,Screens_Monitors,Saket Screens Monitors Bin
+281,28.668471,77.441962,Screens_Monitors,Ghaziabad Industrial Area Screens Monitors Bin
+282,28.667411,77.453223,Screens_Monitors,Ghaziabad Industrial Area Screens Monitors Bin
+283,28.527916,77.389404,Hazardous_Lamps,Noida Sector 18 Hazardous Lamps Bin
+284,28.542764,77.260971,Small_IT_General,Nehru Place Small IT General Bin
+285,28.627966,77.215629,Hazardous_Lamps,Connaught Place Hazardous Lamps Bin
+286,28.537003,77.381895,Hazardous_Lamps,Noida Sector 18 Hazardous Lamps Bin
+287,28.56026,77.269014,Large_Equipment,Nehru Place Large Equipment Bin
+288,28.517874,77.195663,Large_Equipment,Saket Large Equipment Bin
+289,28.53499,77.377084,Small_IT_General,Noida Sector 18 Small IT General Bin
+290,28.541593,77.268892,Small_IT_General,Nehru Place Small IT General Bin
+291,28.465755,77.029108,Hazardous_Lamps,Gurgaon Cyber City Hazardous Lamps Bin
+292,28.706386,77.105695,Hazardous_Lamps,Rohini Hazardous Lamps Bin
+293,28.554457,77.265453,Large_Equipment,Nehru Place Large Equipment Bin
+294,28.698108,77.096725,Large_Equipment,Rohini Large Equipment Bin
+295,28.548317,77.385711,Small_IT_General,Noida Sector 18 Small IT General Bin
+296,28.607726,77.216148,Screens_Monitors,Connaught Place Screens Monitors Bin
+297,28.455723,77.039085,Screens_Monitors,Gurgaon Cyber City Screens Monitors Bin
+298,28.52397,77.187799,Small_IT_General,Saket Small IT General Bin
+299,28.551102,77.256246,Screens_Monitors,Nehru Place Screens Monitors Bin
+300,28.542381,77.265147,Large_Equipment,Nehru Place Large Equipment Bin
+301,28.453489,77.012009,Large_Equipment,Gurgaon Cyber City Large Equipment Bin
+302,28.537706,77.182399,Screens_Monitors,Saket Screens Monitors Bin
+303,28.529865,77.171263,Small_IT_General,Saket Small IT General Bin
+304,28.601224,77.057547,Screens_Monitors,Dwarka Sector 21 Screens Monitors Bin
+305,28.68258,77.465271,Small_IT_General,Ghaziabad Industrial Area Small IT General Bin
+306,28.529623,77.392618,Hazardous_Lamps,Noida Sector 18 Hazardous Lamps Bin
+307,28.709038,77.115034,Small_IT_General,Rohini Small IT General Bin
+308,28.663557,77.446493,Hazardous_Lamps,Ghaziabad Industrial Area Hazardous Lamps Bin
+309,28.444533,77.041138,Large_Equipment,Gurgaon Cyber City Large Equipment Bin
+310,28.71542,77.113111,Large_Equipment,Rohini Large Equipment Bin
+311,28.543252,77.257993,Hazardous_Lamps,Nehru Place Hazardous Lamps Bin
+312,28.62235,77.213579,Small_IT_General,Connaught Place Small IT General Bin
+313,28.522764,77.177171,Small_IT_General,Saket Small IT General Bin
+314,28.580057,77.040654,Screens_Monitors,Dwarka Sector 21 Screens Monitors Bin
+315,28.610536,77.201038,Small_IT_General,Connaught Place Small IT General Bin
+316,28.523431,77.193712,Hazardous_Lamps,Saket Hazardous Lamps Bin
+317,28.682594,77.451537,Hazardous_Lamps,Ghaziabad Industrial Area Hazardous Lamps Bin
+318,28.696368,77.116272,Hazardous_Lamps,Rohini Hazardous Lamps Bin
+319,28.70463,77.103094,Small_IT_General,Rohini Small IT General Bin
+320,28.560935,77.282294,Screens_Monitors,Nehru Place Screens Monitors Bin
+321,28.597567,77.05032,Screens_Monitors,Dwarka Sector 21 Screens Monitors Bin
+322,28.552133,77.274603,Small_IT_General,Nehru Place Small IT General Bin
+323,28.551968,77.264084,Large_Equipment,Nehru Place Large Equipment Bin
+324,28.450696,77.040721,Large_Equipment,Gurgaon Cyber City Large Equipment Bin
+325,28.444921,77.023434,Screens_Monitors,Gurgaon Cyber City Screens Monitors Bin
+326,28.658098,77.442989,Screens_Monitors,Ghaziabad Industrial Area Screens Monitors Bin
+327,28.711189,77.109328,Small_IT_General,Rohini Small IT General Bin
+328,28.518451,77.197292,Screens_Monitors,Saket Screens Monitors Bin
+329,28.469573,77.024834,Large_Equipment,Gurgaon Cyber City Large Equipment Bin
+330,28.662371,77.455883,Screens_Monitors,Ghaziabad Industrial Area Screens Monitors Bin
+331,28.541149,77.272342,Hazardous_Lamps,Nehru Place Hazardous Lamps Bin
+332,28.608658,77.194178,Large_Equipment,Connaught Place Large Equipment Bin
+333,28.599396,77.060848,Hazardous_Lamps,Dwarka Sector 21 Hazardous Lamps Bin
+334,28.622972,77.219341,Screens_Monitors,Connaught Place Screens Monitors Bin
+335,28.605411,77.197732,Screens_Monitors,Connaught Place Screens Monitors Bin
+336,28.556274,77.281417,Hazardous_Lamps,Nehru Place Hazardous Lamps Bin
+337,28.626243,77.218596,Hazardous_Lamps,Connaught Place Hazardous Lamps Bin
+338,28.698811,77.091809,Hazardous_Lamps,Rohini Hazardous Lamps Bin
+339,28.676111,77.447246,Screens_Monitors,Ghaziabad Industrial Area Screens Monitors Bin
+340,28.713655,77.103061,Hazardous_Lamps,Rohini Hazardous Lamps Bin
+341,28.698639,77.095168,Screens_Monitors,Rohini Screens Monitors Bin
+342,28.609279,77.210638,Small_IT_General,Connaught Place Small IT General Bin
+343,28.611545,77.207018,Hazardous_Lamps,Connaught Place Hazardous Lamps Bin
+344,28.690093,77.097015,Screens_Monitors,Rohini Screens Monitors Bin
+345,28.465968,77.038591,Large_Equipment,Gurgaon Cyber City Large Equipment Bin
+346,28.661282,77.451722,Hazardous_Lamps,Ghaziabad Industrial Area Hazardous Lamps Bin
+347,28.527379,77.171253,Large_Equipment,Saket Large Equipment Bin
+348,28.451626,77.021159,Small_IT_General,Gurgaon Cyber City Small IT General Bin
+349,28.548569,77.273029,Hazardous_Lamps,Nehru Place Hazardous Lamps Bin
+350,28.515244,77.192239,Large_Equipment,Saket Large Equipment Bin
+351,28.527296,77.397645,Hazardous_Lamps,Noida Sector 18 Hazardous Lamps Bin
+352,28.580306,77.032792,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+353,28.580424,77.05372,Large_Equipment,Dwarka Sector 21 Large Equipment Bin
+354,28.692896,77.103959,Hazardous_Lamps,Rohini Hazardous Lamps Bin
+355,28.600325,77.208623,Hazardous_Lamps,Connaught Place Hazardous Lamps Bin
+356,28.601481,77.217092,Hazardous_Lamps,Connaught Place Hazardous Lamps Bin
+357,28.532276,77.172597,Large_Equipment,Saket Large Equipment Bin
+358,28.689831,77.103121,Large_Equipment,Rohini Large Equipment Bin
+359,28.452862,77.020354,Small_IT_General,Gurgaon Cyber City Small IT General Bin
+360,28.711957,77.094227,Screens_Monitors,Rohini Screens Monitors Bin
+361,28.525511,77.17704,Hazardous_Lamps,Saket Hazardous Lamps Bin
+362,28.526677,77.188853,Small_IT_General,Saket Small IT General Bin
+363,28.558381,77.271557,Screens_Monitors,Nehru Place Screens Monitors Bin
+364,28.712898,77.094917,Large_Equipment,Rohini Large Equipment Bin
+365,28.546554,77.401015,Large_Equipment,Noida Sector 18 Large Equipment Bin
+366,28.656432,77.458276,Small_IT_General,Ghaziabad Industrial Area Small IT General Bin
+367,28.539973,77.3927,Hazardous_Lamps,Noida Sector 18 Hazardous Lamps Bin
+368,28.625433,77.204558,Hazardous_Lamps,Connaught Place Hazardous Lamps Bin
+369,28.460336,77.020064,Hazardous_Lamps,Gurgaon Cyber City Hazardous Lamps Bin
+370,28.515451,77.198686,Large_Equipment,Saket Large Equipment Bin
+371,28.454013,77.02443,Small_IT_General,Gurgaon Cyber City Small IT General Bin
+372,28.548544,77.384419,Hazardous_Lamps,Noida Sector 18 Hazardous Lamps Bin
+373,28.610658,77.206584,Large_Equipment,Connaught Place Large Equipment Bin
+374,28.590234,77.057544,Screens_Monitors,Dwarka Sector 21 Screens Monitors Bin
+375,28.666351,77.448018,Small_IT_General,Ghaziabad Industrial Area Small IT General Bin
+376,28.694385,77.100283,Small_IT_General,Rohini Small IT General Bin
+377,28.55276,77.277949,Large_Equipment,Nehru Place Large Equipment Bin
+378,28.670015,77.466088,Small_IT_General,Ghaziabad Industrial Area Small IT General Bin
+379,28.461391,77.02318,Screens_Monitors,Gurgaon Cyber City Screens Monitors Bin
+380,28.600635,77.216562,Hazardous_Lamps,Connaught Place Hazardous Lamps Bin
+381,28.557953,77.259811,Large_Equipment,Nehru Place Large Equipment Bin
+382,28.521374,77.403373,Small_IT_General,Noida Sector 18 Small IT General Bin
+383,28.461103,77.028874,Small_IT_General,Gurgaon Cyber City Small IT General Bin
+384,28.591466,77.042043,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+385,28.689696,77.091679,Screens_Monitors,Rohini Screens Monitors Bin
+386,28.626849,77.206189,Large_Equipment,Connaught Place Large Equipment Bin
+387,28.680847,77.441189,Screens_Monitors,Ghaziabad Industrial Area Screens Monitors Bin
+388,28.520413,77.190619,Hazardous_Lamps,Saket Hazardous Lamps Bin
+389,28.537007,77.19883,Hazardous_Lamps,Saket Hazardous Lamps Bin
+390,28.598539,77.035019,Large_Equipment,Dwarka Sector 21 Large Equipment Bin
+391,28.592046,77.059686,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+392,28.463904,77.02782,Large_Equipment,Gurgaon Cyber City Large Equipment Bin
+393,28.561995,77.257889,Hazardous_Lamps,Nehru Place Hazardous Lamps Bin
+394,28.549387,77.398285,Screens_Monitors,Noida Sector 18 Screens Monitors Bin
+395,28.611985,77.209148,Large_Equipment,Connaught Place Large Equipment Bin
+396,28.52042,77.178988,Screens_Monitors,Saket Screens Monitors Bin
+397,28.526134,77.177563,Screens_Monitors,Saket Screens Monitors Bin
+398,28.520366,77.197332,Hazardous_Lamps,Saket Hazardous Lamps Bin
+399,28.526335,77.178124,Screens_Monitors,Saket Screens Monitors Bin
+400,28.562248,77.265058,Large_Equipment,Nehru Place Large Equipment Bin
+401,28.607884,77.210626,Hazardous_Lamps,Connaught Place Hazardous Lamps Bin
+402,28.448484,77.030823,Screens_Monitors,Gurgaon Cyber City Screens Monitors Bin
+403,28.694172,77.093082,Large_Equipment,Rohini Large Equipment Bin
+404,28.523115,77.400794,Screens_Monitors,Noida Sector 18 Screens Monitors Bin
+405,28.53636,77.256965,Hazardous_Lamps,Nehru Place Hazardous Lamps Bin
+406,28.45604,77.016639,Small_IT_General,Gurgaon Cyber City Small IT General Bin
+407,28.708569,77.090692,Screens_Monitors,Rohini Screens Monitors Bin
+408,28.545648,77.376165,Small_IT_General,Noida Sector 18 Small IT General Bin
+409,28.625259,77.208691,Screens_Monitors,Connaught Place Screens Monitors Bin
+410,28.666283,77.452589,Screens_Monitors,Ghaziabad Industrial Area Screens Monitors Bin
+411,28.658038,77.466401,Small_IT_General,Ghaziabad Industrial Area Small IT General Bin
+412,28.715324,77.092689,Hazardous_Lamps,Rohini Hazardous Lamps Bin
+413,28.544665,77.385935,Large_Equipment,Noida Sector 18 Large Equipment Bin
+414,28.528884,77.174819,Small_IT_General,Saket Small IT General Bin
+415,28.607016,77.21109,Screens_Monitors,Connaught Place Screens Monitors Bin
+416,28.469874,77.019927,Hazardous_Lamps,Gurgaon Cyber City Hazardous Lamps Bin
+417,28.702094,77.098057,Screens_Monitors,Rohini Screens Monitors Bin
+418,28.669798,77.444327,Large_Equipment,Ghaziabad Industrial Area Large Equipment Bin
+419,28.54869,77.278269,Screens_Monitors,Nehru Place Screens Monitors Bin
+420,28.524166,77.399035,Small_IT_General,Noida Sector 18 Small IT General Bin
+421,28.584217,77.038955,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+422,28.534951,77.391152,Small_IT_General,Noida Sector 18 Small IT General Bin
+423,28.45831,77.019647,Hazardous_Lamps,Gurgaon Cyber City Hazardous Lamps Bin
+424,28.532565,77.171499,Large_Equipment,Saket Large Equipment Bin
+425,28.537761,77.382855,Screens_Monitors,Noida Sector 18 Screens Monitors Bin
+426,28.666007,77.45709,Large_Equipment,Ghaziabad Industrial Area Large Equipment Bin
+427,28.674704,77.455894,Large_Equipment,Ghaziabad Industrial Area Large Equipment Bin
+428,28.699909,77.096974,Small_IT_General,Rohini Small IT General Bin
+429,28.656764,77.452432,Large_Equipment,Ghaziabad Industrial Area Large Equipment Bin
+430,28.665552,77.461012,Large_Equipment,Ghaziabad Industrial Area Large Equipment Bin
+431,28.546863,77.391814,Hazardous_Lamps,Noida Sector 18 Hazardous Lamps Bin
+432,28.595138,77.051533,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+433,28.524017,77.390954,Large_Equipment,Noida Sector 18 Large Equipment Bin
+434,28.519401,77.184918,Screens_Monitors,Saket Screens Monitors Bin
+435,28.522546,77.382001,Hazardous_Lamps,Noida Sector 18 Hazardous Lamps Bin
+436,28.539459,77.403859,Screens_Monitors,Noida Sector 18 Screens Monitors Bin
+437,28.671248,77.449092,Screens_Monitors,Ghaziabad Industrial Area Screens Monitors Bin
+438,28.616669,77.223773,Large_Equipment,Connaught Place Large Equipment Bin
+439,28.624535,77.19852,Large_Equipment,Connaught Place Large Equipment Bin
+440,28.54551,77.376614,Hazardous_Lamps,Noida Sector 18 Hazardous Lamps Bin
+441,28.623821,77.199263,Small_IT_General,Connaught Place Small IT General Bin
+442,28.523808,77.183101,Hazardous_Lamps,Saket Hazardous Lamps Bin
+443,28.600763,77.051875,Large_Equipment,Dwarka Sector 21 Large Equipment Bin
+444,28.538254,77.264774,Large_Equipment,Nehru Place Large Equipment Bin
+445,28.460177,77.01696,Screens_Monitors,Gurgaon Cyber City Screens Monitors Bin
+446,28.447046,77.032888,Hazardous_Lamps,Gurgaon Cyber City Hazardous Lamps Bin
+447,28.472564,77.029286,Large_Equipment,Gurgaon Cyber City Large Equipment Bin
+448,28.450869,77.040206,Hazardous_Lamps,Gurgaon Cyber City Hazardous Lamps Bin
+449,28.660859,77.440528,Screens_Monitors,Ghaziabad Industrial Area Screens Monitors Bin
+450,28.697122,77.101526,Hazardous_Lamps,Rohini Hazardous Lamps Bin
+451,28.521314,77.170884,Hazardous_Lamps,Saket Hazardous Lamps Bin
+452,28.510574,77.173925,Hazardous_Lamps,Saket Hazardous Lamps Bin
+453,28.450153,77.013181,Small_IT_General,Gurgaon Cyber City Small IT General Bin
+454,28.692737,77.103152,Screens_Monitors,Rohini Screens Monitors Bin
+455,28.549198,77.268305,Small_IT_General,Nehru Place Small IT General Bin
+456,28.663317,77.465681,Small_IT_General,Ghaziabad Industrial Area Small IT General Bin
+457,28.512365,77.184971,Large_Equipment,Saket Large Equipment Bin
+458,28.472897,77.038734,Large_Equipment,Gurgaon Cyber City Large Equipment Bin
+459,28.694021,77.10468,Hazardous_Lamps,Rohini Hazardous Lamps Bin
+460,28.534342,77.39495,Small_IT_General,Noida Sector 18 Small IT General Bin
+461,28.527144,77.377677,Hazardous_Lamps,Noida Sector 18 Hazardous Lamps Bin
+462,28.518977,77.187642,Small_IT_General,Saket Small IT General Bin
+463,28.55472,77.275243,Hazardous_Lamps,Nehru Place Hazardous Lamps Bin
+464,28.624616,77.223252,Hazardous_Lamps,Connaught Place Hazardous Lamps Bin
+465,28.586425,77.056169,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+466,28.600855,77.056009,Screens_Monitors,Dwarka Sector 21 Screens Monitors Bin
+467,28.586218,77.039822,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+468,28.703257,77.111784,Screens_Monitors,Rohini Screens Monitors Bin
+469,28.52885,77.397649,Hazardous_Lamps,Noida Sector 18 Hazardous Lamps Bin
+470,28.448303,77.037504,Large_Equipment,Gurgaon Cyber City Large Equipment Bin
+471,28.627349,77.197962,Hazardous_Lamps,Connaught Place Hazardous Lamps Bin
+472,28.666486,77.446737,Large_Equipment,Ghaziabad Industrial Area Large Equipment Bin
+473,28.69836,77.089862,Small_IT_General,Rohini Small IT General Bin
+474,28.534502,77.264911,Hazardous_Lamps,Nehru Place Hazardous Lamps Bin
+475,28.604712,77.054818,Large_Equipment,Dwarka Sector 21 Large Equipment Bin
+476,28.535567,77.187344,Hazardous_Lamps,Saket Hazardous Lamps Bin
+477,28.704666,77.098347,Screens_Monitors,Rohini Screens Monitors Bin
+478,28.602208,77.20387,Large_Equipment,Connaught Place Large Equipment Bin
+479,28.52249,77.378281,Screens_Monitors,Noida Sector 18 Screens Monitors Bin
+480,28.465891,77.034703,Screens_Monitors,Gurgaon Cyber City Screens Monitors Bin
+481,28.544467,77.377804,Hazardous_Lamps,Noida Sector 18 Hazardous Lamps Bin
+482,28.586373,77.045254,Screens_Monitors,Dwarka Sector 21 Screens Monitors Bin
+483,28.5337,77.188979,Large_Equipment,Saket Large Equipment Bin
+484,28.704793,77.113928,Large_Equipment,Rohini Large Equipment Bin
+485,28.670907,77.44893,Screens_Monitors,Ghaziabad Industrial Area Screens Monitors Bin
+486,28.609705,77.211553,Small_IT_General,Connaught Place Small IT General Bin
+487,28.53915,77.39926,Small_IT_General,Noida Sector 18 Small IT General Bin
+488,28.616962,77.203276,Large_Equipment,Connaught Place Large Equipment Bin
+489,28.693001,77.092662,Large_Equipment,Rohini Large Equipment Bin
+490,28.548506,77.397071,Large_Equipment,Noida Sector 18 Large Equipment Bin
+491,28.691113,77.106344,Large_Equipment,Rohini Large Equipment Bin
+492,28.582076,77.051723,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+493,28.540533,77.376807,Small_IT_General,Noida Sector 18 Small IT General Bin
+494,28.455335,77.031143,Large_Equipment,Gurgaon Cyber City Large Equipment Bin
+495,28.660299,77.453885,Screens_Monitors,Ghaziabad Industrial Area Screens Monitors Bin
+496,28.683344,77.460225,Screens_Monitors,Ghaziabad Industrial Area Screens Monitors Bin
+497,28.473124,77.037365,Screens_Monitors,Gurgaon Cyber City Screens Monitors Bin
+498,28.677376,77.462387,Large_Equipment,Ghaziabad Industrial Area Large Equipment Bin
+499,28.579054,77.059425,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+500,28.655323,77.461588,Screens_Monitors,Ghaziabad Industrial Area Screens Monitors Bin
+501,28.535948,77.270474,Small_IT_General,Nehru Place Small IT General Bin
+502,28.52582,77.196434,Large_Equipment,Saket Large Equipment Bin
+503,28.618597,77.205807,Large_Equipment,Connaught Place Large Equipment Bin
+504,28.678266,77.454015,Large_Equipment,Ghaziabad Industrial Area Large Equipment Bin
+505,28.658839,77.454783,Large_Equipment,Ghaziabad Industrial Area Large Equipment Bin
+506,28.531116,77.378251,Large_Equipment,Noida Sector 18 Large Equipment Bin
+507,28.577481,77.043743,Screens_Monitors,Dwarka Sector 21 Screens Monitors Bin
+508,28.591477,77.040135,Large_Equipment,Dwarka Sector 21 Large Equipment Bin
+509,28.53115,77.187323,Screens_Monitors,Saket Screens Monitors Bin
+510,28.705946,77.10234,Small_IT_General,Rohini Small IT General Bin
+511,28.68348,77.456686,Screens_Monitors,Ghaziabad Industrial Area Screens Monitors Bin
+512,28.47263,77.036709,Large_Equipment,Gurgaon Cyber City Large Equipment Bin
+513,28.693068,77.115235,Small_IT_General,Rohini Small IT General Bin
+514,28.716774,77.107111,Large_Equipment,Rohini Large Equipment Bin
+515,28.676993,77.459573,Hazardous_Lamps,Ghaziabad Industrial Area Hazardous Lamps Bin
+516,28.559701,77.27483,Hazardous_Lamps,Nehru Place Hazardous Lamps Bin
+517,28.584899,77.049986,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+518,28.663703,77.454428,Screens_Monitors,Ghaziabad Industrial Area Screens Monitors Bin
+519,28.522235,77.393468,Large_Equipment,Noida Sector 18 Large Equipment Bin
+520,28.679156,77.440228,Hazardous_Lamps,Ghaziabad Industrial Area Hazardous Lamps Bin
+521,28.54619,77.281532,Hazardous_Lamps,Nehru Place Hazardous Lamps Bin
+522,28.455046,77.027101,Screens_Monitors,Gurgaon Cyber City Screens Monitors Bin
+523,28.447057,77.017515,Large_Equipment,Gurgaon Cyber City Large Equipment Bin
+524,28.460728,77.020072,Small_IT_General,Gurgaon Cyber City Small IT General Bin
+525,28.471898,77.029948,Small_IT_General,Gurgaon Cyber City Small IT General Bin
+526,28.701794,77.093986,Screens_Monitors,Rohini Screens Monitors Bin
+527,28.589406,77.045157,Large_Equipment,Dwarka Sector 21 Large Equipment Bin
+528,28.560353,77.272251,Large_Equipment,Nehru Place Large Equipment Bin
+529,28.547079,77.400693,Large_Equipment,Noida Sector 18 Large Equipment Bin
+530,28.597641,77.042047,Hazardous_Lamps,Dwarka Sector 21 Hazardous Lamps Bin
+531,28.520351,77.186175,Hazardous_Lamps,Saket Hazardous Lamps Bin
+532,28.582913,77.047934,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+533,28.538489,77.263983,Small_IT_General,Nehru Place Small IT General Bin
+534,28.683566,77.439728,Large_Equipment,Ghaziabad Industrial Area Large Equipment Bin
+535,28.473254,77.0365,Small_IT_General,Gurgaon Cyber City Small IT General Bin
+536,28.600945,77.034705,Hazardous_Lamps,Dwarka Sector 21 Hazardous Lamps Bin
+537,28.536997,77.183631,Hazardous_Lamps,Saket Hazardous Lamps Bin
+538,28.591823,77.034022,Hazardous_Lamps,Dwarka Sector 21 Hazardous Lamps Bin
+539,28.537252,77.200423,Screens_Monitors,Saket Screens Monitors Bin
+540,28.58688,77.055147,Screens_Monitors,Dwarka Sector 21 Screens Monitors Bin
+541,28.71588,77.112112,Small_IT_General,Rohini Small IT General Bin
+542,28.628522,77.219805,Large_Equipment,Connaught Place Large Equipment Bin
+543,28.540774,77.381294,Large_Equipment,Noida Sector 18 Large Equipment Bin
+544,28.590661,77.035285,Large_Equipment,Dwarka Sector 21 Large Equipment Bin
+545,28.600785,77.031293,Large_Equipment,Dwarka Sector 21 Large Equipment Bin
+546,28.540313,77.38134,Screens_Monitors,Noida Sector 18 Screens Monitors Bin
+547,28.60458,77.03559,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+548,28.559941,77.259264,Hazardous_Lamps,Nehru Place Hazardous Lamps Bin
+549,28.474149,77.033159,Small_IT_General,Gurgaon Cyber City Small IT General Bin
+550,28.615782,77.216542,Small_IT_General,Connaught Place Small IT General Bin
+551,28.606945,77.216227,Large_Equipment,Connaught Place Large Equipment Bin
+552,28.665191,77.440141,Large_Equipment,Ghaziabad Industrial Area Large Equipment Bin
+553,28.537315,77.199397,Screens_Monitors,Saket Screens Monitors Bin
+554,28.597217,77.056928,Large_Equipment,Dwarka Sector 21 Large Equipment Bin
+555,28.543391,77.272301,Screens_Monitors,Nehru Place Screens Monitors Bin
+556,28.702024,77.09718,Small_IT_General,Rohini Small IT General Bin
+557,28.543074,77.389898,Large_Equipment,Noida Sector 18 Large Equipment Bin
+558,28.54042,77.26635,Large_Equipment,Nehru Place Large Equipment Bin
+559,28.623687,77.215715,Large_Equipment,Connaught Place Large Equipment Bin
+560,28.543014,77.382472,Hazardous_Lamps,Noida Sector 18 Hazardous Lamps Bin
+561,28.587589,77.032403,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+562,28.522582,77.178984,Screens_Monitors,Saket Screens Monitors Bin
+563,28.589036,77.041637,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+564,28.661329,77.446145,Screens_Monitors,Ghaziabad Industrial Area Screens Monitors Bin
+565,28.717602,77.090026,Hazardous_Lamps,Rohini Hazardous Lamps Bin
+566,28.517783,77.170608,Small_IT_General,Saket Small IT General Bin
+567,28.549967,77.271416,Small_IT_General,Nehru Place Small IT General Bin
+568,28.524951,77.390598,Large_Equipment,Noida Sector 18 Large Equipment Bin
+569,28.455864,77.011663,Large_Equipment,Gurgaon Cyber City Large Equipment Bin
+570,28.544069,77.376648,Large_Equipment,Noida Sector 18 Large Equipment Bin
+571,28.60458,77.200559,Hazardous_Lamps,Connaught Place Hazardous Lamps Bin
+572,28.668908,77.456645,Screens_Monitors,Ghaziabad Industrial Area Screens Monitors Bin
+573,28.518024,77.178825,Small_IT_General,Saket Small IT General Bin
+574,28.562912,77.275232,Hazardous_Lamps,Nehru Place Hazardous Lamps Bin
+575,28.658456,77.467416,Small_IT_General,Ghaziabad Industrial Area Small IT General Bin
+576,28.549248,77.384006,Screens_Monitors,Noida Sector 18 Screens Monitors Bin
+577,28.716502,77.101994,Small_IT_General,Rohini Small IT General Bin
+578,28.670546,77.440324,Large_Equipment,Ghaziabad Industrial Area Large Equipment Bin
+579,28.524352,77.385005,Large_Equipment,Noida Sector 18 Large Equipment Bin
+580,28.549695,77.27751,Hazardous_Lamps,Nehru Place Hazardous Lamps Bin
+581,28.562687,77.269126,Small_IT_General,Nehru Place Small IT General Bin
+582,28.538921,77.386135,Large_Equipment,Noida Sector 18 Large Equipment Bin
+583,28.529319,77.199989,Hazardous_Lamps,Saket Hazardous Lamps Bin
+584,28.526132,77.189785,Hazardous_Lamps,Saket Hazardous Lamps Bin
+585,28.596894,77.052114,Small_IT_General,Dwarka Sector 21 Small IT General Bin
+586,28.696245,77.088991,Small_IT_General,Rohini Small IT General Bin
+587,28.692788,77.104598,Small_IT_General,Rohini Small IT General Bin
+588,28.689772,77.107301,Small_IT_General,Rohini Small IT General Bin
+589,28.556074,77.273943,Screens_Monitors,Nehru Place Screens Monitors Bin
+590,28.557426,77.261144,Small_IT_General,Nehru Place Small IT General Bin
+591,28.550251,77.380387,Screens_Monitors,Noida Sector 18 Screens Monitors Bin
+592,28.61924,77.211808,Small_IT_General,Connaught Place Small IT General Bin
+593,28.71571,77.111281,Small_IT_General,Rohini Small IT General Bin
+594,28.553243,77.259128,Large_Equipment,Nehru Place Large Equipment Bin
+595,28.620625,77.207364,Large_Equipment,Connaught Place Large Equipment Bin
+596,28.524841,77.18923,Large_Equipment,Saket Large Equipment Bin
+597,28.656367,77.452102,Large_Equipment,Ghaziabad Industrial Area Large Equipment Bin
+598,28.592806,77.041292,Hazardous_Lamps,Dwarka Sector 21 Hazardous Lamps Bin
+599,28.445406,77.037716,Small_IT_General,Gurgaon Cyber City Small IT General Bin
+600,28.590078,77.041543,Small_IT_General,Dwarka Sector 21 Small IT General Bin

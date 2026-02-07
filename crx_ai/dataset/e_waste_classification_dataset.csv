@@ -1,0 +1,1001 @@
+id,waste_description,waste_category
+1,Damaged rechargeable battery,Hazardous & Lamps
+2,Electric stove,Large Equipment
+3,CRT TV old model,Screens & Monitors
+4,Router device,Small IT & General Equipment
+5,CRT TV old model,Screens & Monitors
+6,Damaged rechargeable battery,Hazardous & Lamps
+7,Electronic toy,Small IT & General Equipment
+8,Notebook display,Screens & Monitors
+9,Electric stove,Large Equipment
+10,Fluorescent tube light,Hazardous & Lamps
+11,Dishwasher machine,Large Equipment
+12,Lithium ion battery from mobile phone,Hazardous & Lamps
+13,Washing machine not working,Large Equipment
+14,AA alkaline battery,Hazardous & Lamps
+15,Mobile phone not switching on,Small IT & General Equipment
+16,Damaged rechargeable battery,Hazardous & Lamps
+17,Broken LED bulb,Hazardous & Lamps
+18,Old CFL lamp,Hazardous & Lamps
+19,Phone charger cable,Small IT & General Equipment
+20,Washing machine not working,Large Equipment
+21,Old CFL lamp,Hazardous & Lamps
+22,Dishwasher machine,Large Equipment
+23,LCD monitor 24 inch,Screens & Monitors
+24,Washing machine not working,Large Equipment
+25,Old CFL lamp,Hazardous & Lamps
+26,UPS battery,Hazardous & Lamps
+27,Button cell battery,Hazardous & Lamps
+28,Freezer unit,Large Equipment
+29,Tablet display cracked,Screens & Monitors
+30,LCD monitor 24 inch,Screens & Monitors
+31,Freezer unit,Large Equipment
+32,Fluorescent tube light,Hazardous & Lamps
+33,Router device,Small IT & General Equipment
+34,UPS battery,Hazardous & Lamps
+35,Fluorescent tube light,Hazardous & Lamps
+36,Fluorescent tube light,Hazardous & Lamps
+37,Computer CPU cabinet,Small IT & General Equipment
+38,Refrigerator cooling issue,Large Equipment
+39,Industrial copier,Large Equipment
+40,Fluorescent tube light,Hazardous & Lamps
+41,Desktop computer monitor,Screens & Monitors
+42,Power bank battery,Hazardous & Lamps
+43,Office monitor screen,Screens & Monitors
+44,CRT TV old model,Screens & Monitors
+45,LED television,Screens & Monitors
+46,Power bank battery,Hazardous & Lamps
+47,Button cell battery,Hazardous & Lamps
+48,Power bank battery,Hazardous & Lamps
+49,Electric stove,Large Equipment
+50,Damaged rechargeable battery,Hazardous & Lamps
+51,Lithium ion battery from mobile phone,Hazardous & Lamps
+52,Broken laptop screen,Screens & Monitors
+53,Old CFL lamp,Hazardous & Lamps
+54,Refrigerator cooling issue,Large Equipment
+55,Computer CPU cabinet,Small IT & General Equipment
+56,Electronic toy,Small IT & General Equipment
+57,Flat screen TV,Screens & Monitors
+58,Industrial copier,Large Equipment
+59,Broken laptop screen,Screens & Monitors
+60,Electronic toy,Small IT & General Equipment
+61,Industrial copier,Large Equipment
+62,Industrial copier,Large Equipment
+63,Mercury lamp,Hazardous & Lamps
+64,Industrial copier,Large Equipment
+65,Industrial copier,Large Equipment
+66,Microwave oven,Small IT & General Equipment
+67,Mercury lamp,Hazardous & Lamps
+68,Router device,Small IT & General Equipment
+69,Tablet display cracked,Screens & Monitors
+70,Computer CPU cabinet,Small IT & General Equipment
+71,Touchscreen panel,Screens & Monitors
+72,Old CFL lamp,Hazardous & Lamps
+73,Flat screen TV,Screens & Monitors
+74,Large office printer,Large Equipment
+75,LCD monitor 24 inch,Screens & Monitors
+76,Fluorescent tube light,Hazardous & Lamps
+77,CRT TV old model,Screens & Monitors
+78,Notebook display,Screens & Monitors
+79,Flat screen TV,Screens & Monitors
+80,Phone charger cable,Small IT & General Equipment
+81,Fluorescent tube light,Hazardous & Lamps
+82,Tablet display cracked,Screens & Monitors
+83,Fluorescent tube light,Hazardous & Lamps
+84,Broken laptop screen,Screens & Monitors
+85,CRT TV old model,Screens & Monitors
+86,Heat pump machine,Large Equipment
+87,Washing machine not working,Large Equipment
+88,Electric stove,Large Equipment
+89,Industrial copier,Large Equipment
+90,Electric kettle,Small IT & General Equipment
+91,Freezer unit,Large Equipment
+92,Phone charger cable,Small IT & General Equipment
+93,Router device,Small IT & General Equipment
+94,Mobile phone not switching on,Small IT & General Equipment
+95,Washing machine not working,Large Equipment
+96,Mobile phone not switching on,Small IT & General Equipment
+97,AA alkaline battery,Hazardous & Lamps
+98,Dishwasher machine,Large Equipment
+99,Office monitor screen,Screens & Monitors
+100,Desktop computer monitor,Screens & Monitors
+101,Broken LED bulb,Hazardous & Lamps
+102,Broken laptop screen,Screens & Monitors
+103,Router device,Small IT & General Equipment
+104,Desktop computer monitor,Screens & Monitors
+105,Flat screen TV,Screens & Monitors
+106,Router device,Small IT & General Equipment
+107,Keyboard and mouse,Small IT & General Equipment
+108,Computer CPU cabinet,Small IT & General Equipment
+109,Flat screen TV,Screens & Monitors
+110,Refrigerator cooling issue,Large Equipment
+111,Touchscreen panel,Screens & Monitors
+112,Broken LED bulb,Hazardous & Lamps
+113,Office monitor screen,Screens & Monitors
+114,Tablet display cracked,Screens & Monitors
+115,Large office printer,Large Equipment
+116,Button cell battery,Hazardous & Lamps
+117,Desktop computer monitor,Screens & Monitors
+118,Computer CPU cabinet,Small IT & General Equipment
+119,Tablet display cracked,Screens & Monitors
+120,Dishwasher machine,Large Equipment
+121,Heat pump machine,Large Equipment
+122,Air conditioner outdoor unit,Large Equipment
+123,Lithium ion battery from mobile phone,Hazardous & Lamps
+124,Phone charger cable,Small IT & General Equipment
+125,Router device,Small IT & General Equipment
+126,Touchscreen panel,Screens & Monitors
+127,Laptop motherboard,Small IT & General Equipment
+128,Microwave oven,Small IT & General Equipment
+129,Desktop computer monitor,Screens & Monitors
+130,Button cell battery,Hazardous & Lamps
+131,Broken laptop screen,Screens & Monitors
+132,Tablet display cracked,Screens & Monitors
+133,Freezer unit,Large Equipment
+134,Freezer unit,Large Equipment
+135,Laptop motherboard,Small IT & General Equipment
+136,Router device,Small IT & General Equipment
+137,Fluorescent tube light,Hazardous & Lamps
+138,Electronic toy,Small IT & General Equipment
+139,Lithium ion battery from mobile phone,Hazardous & Lamps
+140,Button cell battery,Hazardous & Lamps
+141,Industrial copier,Large Equipment
+142,LCD monitor 24 inch,Screens & Monitors
+143,Broken LED bulb,Hazardous & Lamps
+144,Electric kettle,Small IT & General Equipment
+145,Office monitor screen,Screens & Monitors
+146,Washing machine not working,Large Equipment
+147,UPS battery,Hazardous & Lamps
+148,Washing machine not working,Large Equipment
+149,Laptop motherboard,Small IT & General Equipment
+150,Button cell battery,Hazardous & Lamps
+151,LED television,Screens & Monitors
+152,Power bank battery,Hazardous & Lamps
+153,Vacuum cleaner,Small IT & General Equipment
+154,Flat screen TV,Screens & Monitors
+155,Router device,Small IT & General Equipment
+156,Keyboard and mouse,Small IT & General Equipment
+157,Desktop computer monitor,Screens & Monitors
+158,Computer CPU cabinet,Small IT & General Equipment
+159,Office monitor screen,Screens & Monitors
+160,Mobile phone not switching on,Small IT & General Equipment
+161,Freezer unit,Large Equipment
+162,Computer CPU cabinet,Small IT & General Equipment
+163,Desktop computer monitor,Screens & Monitors
+164,Router device,Small IT & General Equipment
+165,LCD monitor 24 inch,Screens & Monitors
+166,Electric kettle,Small IT & General Equipment
+167,Industrial copier,Large Equipment
+168,Electric stove,Large Equipment
+169,Touchscreen panel,Screens & Monitors
+170,Office monitor screen,Screens & Monitors
+171,Refrigerator cooling issue,Large Equipment
+172,AA alkaline battery,Hazardous & Lamps
+173,Damaged rechargeable battery,Hazardous & Lamps
+174,Tablet display cracked,Screens & Monitors
+175,Freezer unit,Large Equipment
+176,Office monitor screen,Screens & Monitors
+177,Industrial copier,Large Equipment
+178,Desktop computer monitor,Screens & Monitors
+179,Broken LED bulb,Hazardous & Lamps
+180,Industrial copier,Large Equipment
+181,Freezer unit,Large Equipment
+182,Clothes dryer,Large Equipment
+183,CRT TV old model,Screens & Monitors
+184,Office monitor screen,Screens & Monitors
+185,Button cell battery,Hazardous & Lamps
+186,Touchscreen panel,Screens & Monitors
+187,Electric stove,Large Equipment
+188,Button cell battery,Hazardous & Lamps
+189,UPS battery,Hazardous & Lamps
+190,Button cell battery,Hazardous & Lamps
+191,Fluorescent tube light,Hazardous & Lamps
+192,Mobile phone not switching on,Small IT & General Equipment
+193,LCD monitor 24 inch,Screens & Monitors
+194,Broken LED bulb,Hazardous & Lamps
+195,Office monitor screen,Screens & Monitors
+196,Office monitor screen,Screens & Monitors
+197,CRT TV old model,Screens & Monitors
+198,Tablet display cracked,Screens & Monitors
+199,Mercury lamp,Hazardous & Lamps
+200,Electric stove,Large Equipment
+201,Heat pump machine,Large Equipment
+202,Damaged rechargeable battery,Hazardous & Lamps
+203,Washing machine not working,Large Equipment
+204,Button cell battery,Hazardous & Lamps
+205,Freezer unit,Large Equipment
+206,Fluorescent tube light,Hazardous & Lamps
+207,LCD monitor 24 inch,Screens & Monitors
+208,Broken LED bulb,Hazardous & Lamps
+209,Electronic toy,Small IT & General Equipment
+210,LCD monitor 24 inch,Screens & Monitors
+211,Broken LED bulb,Hazardous & Lamps
+212,Phone charger cable,Small IT & General Equipment
+213,Router device,Small IT & General Equipment
+214,Electric stove,Large Equipment
+215,Fluorescent tube light,Hazardous & Lamps
+216,Router device,Small IT & General Equipment
+217,Broken laptop screen,Screens & Monitors
+218,Keyboard and mouse,Small IT & General Equipment
+219,Phone charger cable,Small IT & General Equipment
+220,Touchscreen panel,Screens & Monitors
+221,CRT TV old model,Screens & Monitors
+222,Dishwasher machine,Large Equipment
+223,Industrial copier,Large Equipment
+224,CRT TV old model,Screens & Monitors
+225,Dishwasher machine,Large Equipment
+226,LED television,Screens & Monitors
+227,Router device,Small IT & General Equipment
+228,Keyboard and mouse,Small IT & General Equipment
+229,Air conditioner outdoor unit,Large Equipment
+230,Clothes dryer,Large Equipment
+231,LED television,Screens & Monitors
+232,Fluorescent tube light,Hazardous & Lamps
+233,Electric stove,Large Equipment
+234,CRT TV old model,Screens & Monitors
+235,Button cell battery,Hazardous & Lamps
+236,Microwave oven,Small IT & General Equipment
+237,Heat pump machine,Large Equipment
+238,Vacuum cleaner,Small IT & General Equipment
+239,Touchscreen panel,Screens & Monitors
+240,UPS battery,Hazardous & Lamps
+241,Old CFL lamp,Hazardous & Lamps
+242,Damaged rechargeable battery,Hazardous & Lamps
+243,Large office printer,Large Equipment
+244,AA alkaline battery,Hazardous & Lamps
+245,Office monitor screen,Screens & Monitors
+246,Old CFL lamp,Hazardous & Lamps
+247,Broken LED bulb,Hazardous & Lamps
+248,Vacuum cleaner,Small IT & General Equipment
+249,Dishwasher machine,Large Equipment
+250,Office monitor screen,Screens & Monitors
+251,Old CFL lamp,Hazardous & Lamps
+252,Freezer unit,Large Equipment
+253,LCD monitor 24 inch,Screens & Monitors
+254,Computer CPU cabinet,Small IT & General Equipment
+255,LCD monitor 24 inch,Screens & Monitors
+256,Button cell battery,Hazardous & Lamps
+257,Power bank battery,Hazardous & Lamps
+258,Desktop computer monitor,Screens & Monitors
+259,Electronic toy,Small IT & General Equipment
+260,Flat screen TV,Screens & Monitors
+261,UPS battery,Hazardous & Lamps
+262,Button cell battery,Hazardous & Lamps
+263,Mobile phone not switching on,Small IT & General Equipment
+264,Power bank battery,Hazardous & Lamps
+265,Flat screen TV,Screens & Monitors
+266,Heat pump machine,Large Equipment
+267,Clothes dryer,Large Equipment
+268,LED television,Screens & Monitors
+269,Air conditioner outdoor unit,Large Equipment
+270,Refrigerator cooling issue,Large Equipment
+271,Damaged rechargeable battery,Hazardous & Lamps
+272,Mercury lamp,Hazardous & Lamps
+273,Office monitor screen,Screens & Monitors
+274,Vacuum cleaner,Small IT & General Equipment
+275,Power bank battery,Hazardous & Lamps
+276,Freezer unit,Large Equipment
+277,Damaged rechargeable battery,Hazardous & Lamps
+278,Clothes dryer,Large Equipment
+279,Air conditioner outdoor unit,Large Equipment
+280,Refrigerator cooling issue,Large Equipment
+281,UPS battery,Hazardous & Lamps
+282,Refrigerator cooling issue,Large Equipment
+283,Dishwasher machine,Large Equipment
+284,Vacuum cleaner,Small IT & General Equipment
+285,Mercury lamp,Hazardous & Lamps
+286,LED television,Screens & Monitors
+287,Dishwasher machine,Large Equipment
+288,Refrigerator cooling issue,Large Equipment
+289,Industrial copier,Large Equipment
+290,Microwave oven,Small IT & General Equipment
+291,Broken laptop screen,Screens & Monitors
+292,Electric stove,Large Equipment
+293,Power bank battery,Hazardous & Lamps
+294,UPS battery,Hazardous & Lamps
+295,Desktop computer monitor,Screens & Monitors
+296,CRT TV old model,Screens & Monitors
+297,Microwave oven,Small IT & General Equipment
+298,Electric kettle,Small IT & General Equipment
+299,Vacuum cleaner,Small IT & General Equipment
+300,Broken laptop screen,Screens & Monitors
+301,Large office printer,Large Equipment
+302,Old CFL lamp,Hazardous & Lamps
+303,Computer CPU cabinet,Small IT & General Equipment
+304,Freezer unit,Large Equipment
+305,Clothes dryer,Large Equipment
+306,Button cell battery,Hazardous & Lamps
+307,Laptop motherboard,Small IT & General Equipment
+308,Broken laptop screen,Screens & Monitors
+309,Notebook display,Screens & Monitors
+310,Microwave oven,Small IT & General Equipment
+311,Fluorescent tube light,Hazardous & Lamps
+312,Freezer unit,Large Equipment
+313,Microwave oven,Small IT & General Equipment
+314,Desktop computer monitor,Screens & Monitors
+315,Washing machine not working,Large Equipment
+316,CRT TV old model,Screens & Monitors
+317,Electronic toy,Small IT & General Equipment
+318,LED television,Screens & Monitors
+319,Industrial copier,Large Equipment
+320,Large office printer,Large Equipment
+321,Notebook display,Screens & Monitors
+322,Mobile phone not switching on,Small IT & General Equipment
+323,Phone charger cable,Small IT & General Equipment
+324,Desktop computer monitor,Screens & Monitors
+325,Lithium ion battery from mobile phone,Hazardous & Lamps
+326,Heat pump machine,Large Equipment
+327,Tablet display cracked,Screens & Monitors
+328,UPS battery,Hazardous & Lamps
+329,AA alkaline battery,Hazardous & Lamps
+330,Phone charger cable,Small IT & General Equipment
+331,Large office printer,Large Equipment
+332,LED television,Screens & Monitors
+333,LED television,Screens & Monitors
+334,Tablet display cracked,Screens & Monitors
+335,Washing machine not working,Large Equipment
+336,AA alkaline battery,Hazardous & Lamps
+337,Power bank battery,Hazardous & Lamps
+338,Microwave oven,Small IT & General Equipment
+339,Computer CPU cabinet,Small IT & General Equipment
+340,Large office printer,Large Equipment
+341,Keyboard and mouse,Small IT & General Equipment
+342,Fluorescent tube light,Hazardous & Lamps
+343,Tablet display cracked,Screens & Monitors
+344,Vacuum cleaner,Small IT & General Equipment
+345,Button cell battery,Hazardous & Lamps
+346,Flat screen TV,Screens & Monitors
+347,Washing machine not working,Large Equipment
+348,Washing machine not working,Large Equipment
+349,Desktop computer monitor,Screens & Monitors
+350,Damaged rechargeable battery,Hazardous & Lamps
+351,Office monitor screen,Screens & Monitors
+352,Broken laptop screen,Screens & Monitors
+353,CRT TV old model,Screens & Monitors
+354,LCD monitor 24 inch,Screens & Monitors
+355,Damaged rechargeable battery,Hazardous & Lamps
+356,Dishwasher machine,Large Equipment
+357,Keyboard and mouse,Small IT & General Equipment
+358,Power bank battery,Hazardous & Lamps
+359,UPS battery,Hazardous & Lamps
+360,Electric stove,Large Equipment
+361,Broken LED bulb,Hazardous & Lamps
+362,Phone charger cable,Small IT & General Equipment
+363,Damaged rechargeable battery,Hazardous & Lamps
+364,Keyboard and mouse,Small IT & General Equipment
+365,Industrial copier,Large Equipment
+366,Freezer unit,Large Equipment
+367,Heat pump machine,Large Equipment
+368,Broken LED bulb,Hazardous & Lamps
+369,Button cell battery,Hazardous & Lamps
+370,Desktop computer monitor,Screens & Monitors
+371,Air conditioner outdoor unit,Large Equipment
+372,Power bank battery,Hazardous & Lamps
+373,Flat screen TV,Screens & Monitors
+374,Laptop motherboard,Small IT & General Equipment
+375,Lithium ion battery from mobile phone,Hazardous & Lamps
+376,Freezer unit,Large Equipment
+377,Washing machine not working,Large Equipment
+378,Router device,Small IT & General Equipment
+379,Mobile phone not switching on,Small IT & General Equipment
+380,Refrigerator cooling issue,Large Equipment
+381,Electronic toy,Small IT & General Equipment
+382,Electronic toy,Small IT & General Equipment
+383,AA alkaline battery,Hazardous & Lamps
+384,Large office printer,Large Equipment
+385,Large office printer,Large Equipment
+386,Router device,Small IT & General Equipment
+387,Freezer unit,Large Equipment
+388,Touchscreen panel,Screens & Monitors
+389,Router device,Small IT & General Equipment
+390,Old CFL lamp,Hazardous & Lamps
+391,Phone charger cable,Small IT & General Equipment
+392,LED television,Screens & Monitors
+393,Dishwasher machine,Large Equipment
+394,Washing machine not working,Large Equipment
+395,Flat screen TV,Screens & Monitors
+396,Mercury lamp,Hazardous & Lamps
+397,Electronic toy,Small IT & General Equipment
+398,Large office printer,Large Equipment
+399,Power bank battery,Hazardous & Lamps
+400,Air conditioner outdoor unit,Large Equipment
+401,UPS battery,Hazardous & Lamps
+402,Touchscreen panel,Screens & Monitors
+403,Desktop computer monitor,Screens & Monitors
+404,Computer CPU cabinet,Small IT & General Equipment
+405,Broken LED bulb,Hazardous & Lamps
+406,Refrigerator cooling issue,Large Equipment
+407,LED television,Screens & Monitors
+408,Electronic toy,Small IT & General Equipment
+409,Notebook display,Screens & Monitors
+410,Keyboard and mouse,Small IT & General Equipment
+411,Washing machine not working,Large Equipment
+412,LCD monitor 24 inch,Screens & Monitors
+413,Industrial copier,Large Equipment
+414,Dishwasher machine,Large Equipment
+415,Mercury lamp,Hazardous & Lamps
+416,Electric stove,Large Equipment
+417,Desktop computer monitor,Screens & Monitors
+418,Fluorescent tube light,Hazardous & Lamps
+419,Electric kettle,Small IT & General Equipment
+420,Phone charger cable,Small IT & General Equipment
+421,Old CFL lamp,Hazardous & Lamps
+422,Button cell battery,Hazardous & Lamps
+423,LED television,Screens & Monitors
+424,AA alkaline battery,Hazardous & Lamps
+425,Flat screen TV,Screens & Monitors
+426,Old CFL lamp,Hazardous & Lamps
+427,Air conditioner outdoor unit,Large Equipment
+428,Old CFL lamp,Hazardous & Lamps
+429,Lithium ion battery from mobile phone,Hazardous & Lamps
+430,Laptop motherboard,Small IT & General Equipment
+431,Lithium ion battery from mobile phone,Hazardous & Lamps
+432,Heat pump machine,Large Equipment
+433,Clothes dryer,Large Equipment
+434,Flat screen TV,Screens & Monitors
+435,Touchscreen panel,Screens & Monitors
+436,Electric kettle,Small IT & General Equipment
+437,Damaged rechargeable battery,Hazardous & Lamps
+438,Mobile phone not switching on,Small IT & General Equipment
+439,LED television,Screens & Monitors
+440,Large office printer,Large Equipment
+441,Mercury lamp,Hazardous & Lamps
+442,Button cell battery,Hazardous & Lamps
+443,Washing machine not working,Large Equipment
+444,LED television,Screens & Monitors
+445,Dishwasher machine,Large Equipment
+446,Electronic toy,Small IT & General Equipment
+447,Notebook display,Screens & Monitors
+448,Washing machine not working,Large Equipment
+449,Heat pump machine,Large Equipment
+450,UPS battery,Hazardous & Lamps
+451,Refrigerator cooling issue,Large Equipment
+452,Desktop computer monitor,Screens & Monitors
+453,Touchscreen panel,Screens & Monitors
+454,Electric kettle,Small IT & General Equipment
+455,Mobile phone not switching on,Small IT & General Equipment
+456,AA alkaline battery,Hazardous & Lamps
+457,Washing machine not working,Large Equipment
+458,Notebook display,Screens & Monitors
+459,UPS battery,Hazardous & Lamps
+460,Washing machine not working,Large Equipment
+461,Large office printer,Large Equipment
+462,Laptop motherboard,Small IT & General Equipment
+463,Washing machine not working,Large Equipment
+464,CRT TV old model,Screens & Monitors
+465,Laptop motherboard,Small IT & General Equipment
+466,Microwave oven,Small IT & General Equipment
+467,Electronic toy,Small IT & General Equipment
+468,Keyboard and mouse,Small IT & General Equipment
+469,Air conditioner outdoor unit,Large Equipment
+470,Broken laptop screen,Screens & Monitors
+471,Air conditioner outdoor unit,Large Equipment
+472,Electronic toy,Small IT & General Equipment
+473,Damaged rechargeable battery,Hazardous & Lamps
+474,Lithium ion battery from mobile phone,Hazardous & Lamps
+475,Button cell battery,Hazardous & Lamps
+476,Vacuum cleaner,Small IT & General Equipment
+477,UPS battery,Hazardous & Lamps
+478,Desktop computer monitor,Screens & Monitors
+479,Old CFL lamp,Hazardous & Lamps
+480,Mobile phone not switching on,Small IT & General Equipment
+481,Electric kettle,Small IT & General Equipment
+482,Vacuum cleaner,Small IT & General Equipment
+483,Mercury lamp,Hazardous & Lamps
+484,Electric stove,Large Equipment
+485,Electric stove,Large Equipment
+486,Flat screen TV,Screens & Monitors
+487,Electric stove,Large Equipment
+488,LED television,Screens & Monitors
+489,Broken laptop screen,Screens & Monitors
+490,Damaged rechargeable battery,Hazardous & Lamps
+491,Phone charger cable,Small IT & General Equipment
+492,Electronic toy,Small IT & General Equipment
+493,Office monitor screen,Screens & Monitors
+494,Phone charger cable,Small IT & General Equipment
+495,Refrigerator cooling issue,Large Equipment
+496,Mercury lamp,Hazardous & Lamps
+497,Large office printer,Large Equipment
+498,Dishwasher machine,Large Equipment
+499,UPS battery,Hazardous & Lamps
+500,Mobile phone not switching on,Small IT & General Equipment
+501,LCD monitor 24 inch,Screens & Monitors
+502,Mercury lamp,Hazardous & Lamps
+503,Fluorescent tube light,Hazardous & Lamps
+504,Industrial copier,Large Equipment
+505,Dishwasher machine,Large Equipment
+506,Touchscreen panel,Screens & Monitors
+507,Power bank battery,Hazardous & Lamps
+508,Computer CPU cabinet,Small IT & General Equipment
+509,Touchscreen panel,Screens & Monitors
+510,Keyboard and mouse,Small IT & General Equipment
+511,Broken LED bulb,Hazardous & Lamps
+512,CRT TV old model,Screens & Monitors
+513,Touchscreen panel,Screens & Monitors
+514,Notebook display,Screens & Monitors
+515,Large office printer,Large Equipment
+516,Electric stove,Large Equipment
+517,Desktop computer monitor,Screens & Monitors
+518,Flat screen TV,Screens & Monitors
+519,LED television,Screens & Monitors
+520,Broken LED bulb,Hazardous & Lamps
+521,LED television,Screens & Monitors
+522,Router device,Small IT & General Equipment
+523,Mobile phone not switching on,Small IT & General Equipment
+524,Air conditioner outdoor unit,Large Equipment
+525,Electronic toy,Small IT & General Equipment
+526,Computer CPU cabinet,Small IT & General Equipment
+527,AA alkaline battery,Hazardous & Lamps
+528,Mercury lamp,Hazardous & Lamps
+529,Microwave oven,Small IT & General Equipment
+530,Broken laptop screen,Screens & Monitors
+531,Electronic toy,Small IT & General Equipment
+532,Keyboard and mouse,Small IT & General Equipment
+533,UPS battery,Hazardous & Lamps
+534,Power bank battery,Hazardous & Lamps
+535,Microwave oven,Small IT & General Equipment
+536,Broken LED bulb,Hazardous & Lamps
+537,UPS battery,Hazardous & Lamps
+538,Desktop computer monitor,Screens & Monitors
+539,Vacuum cleaner,Small IT & General Equipment
+540,Industrial copier,Large Equipment
+541,Broken laptop screen,Screens & Monitors
+542,Washing machine not working,Large Equipment
+543,Washing machine not working,Large Equipment
+544,Phone charger cable,Small IT & General Equipment
+545,UPS battery,Hazardous & Lamps
+546,Old CFL lamp,Hazardous & Lamps
+547,Broken laptop screen,Screens & Monitors
+548,Freezer unit,Large Equipment
+549,LED television,Screens & Monitors
+550,Computer CPU cabinet,Small IT & General Equipment
+551,Industrial copier,Large Equipment
+552,Tablet display cracked,Screens & Monitors
+553,Computer CPU cabinet,Small IT & General Equipment
+554,LCD monitor 24 inch,Screens & Monitors
+555,LCD monitor 24 inch,Screens & Monitors
+556,Clothes dryer,Large Equipment
+557,Large office printer,Large Equipment
+558,Router device,Small IT & General Equipment
+559,Vacuum cleaner,Small IT & General Equipment
+560,Power bank battery,Hazardous & Lamps
+561,Desktop computer monitor,Screens & Monitors
+562,Notebook display,Screens & Monitors
+563,Keyboard and mouse,Small IT & General Equipment
+564,Button cell battery,Hazardous & Lamps
+565,Touchscreen panel,Screens & Monitors
+566,Phone charger cable,Small IT & General Equipment
+567,Refrigerator cooling issue,Large Equipment
+568,CRT TV old model,Screens & Monitors
+569,LCD monitor 24 inch,Screens & Monitors
+570,Fluorescent tube light,Hazardous & Lamps
+571,Washing machine not working,Large Equipment
+572,Dishwasher machine,Large Equipment
+573,Router device,Small IT & General Equipment
+574,Electric stove,Large Equipment
+575,Power bank battery,Hazardous & Lamps
+576,Industrial copier,Large Equipment
+577,UPS battery,Hazardous & Lamps
+578,Keyboard and mouse,Small IT & General Equipment
+579,Lithium ion battery from mobile phone,Hazardous & Lamps
+580,Large office printer,Large Equipment
+581,Tablet display cracked,Screens & Monitors
+582,Laptop motherboard,Small IT & General Equipment
+583,Laptop motherboard,Small IT & General Equipment
+584,Laptop motherboard,Small IT & General Equipment
+585,Clothes dryer,Large Equipment
+586,LED television,Screens & Monitors
+587,Freezer unit,Large Equipment
+588,Router device,Small IT & General Equipment
+589,Broken LED bulb,Hazardous & Lamps
+590,UPS battery,Hazardous & Lamps
+591,Clothes dryer,Large Equipment
+592,Keyboard and mouse,Small IT & General Equipment
+593,Broken LED bulb,Hazardous & Lamps
+594,Old CFL lamp,Hazardous & Lamps
+595,Lithium ion battery from mobile phone,Hazardous & Lamps
+596,Air conditioner outdoor unit,Large Equipment
+597,Large office printer,Large Equipment
+598,Notebook display,Screens & Monitors
+599,Lithium ion battery from mobile phone,Hazardous & Lamps
+600,Laptop motherboard,Small IT & General Equipment
+601,Keyboard and mouse,Small IT & General Equipment
+602,Large office printer,Large Equipment
+603,Power bank battery,Hazardous & Lamps
+604,Broken LED bulb,Hazardous & Lamps
+605,Computer CPU cabinet,Small IT & General Equipment
+606,LCD monitor 24 inch,Screens & Monitors
+607,Computer CPU cabinet,Small IT & General Equipment
+608,CRT TV old model,Screens & Monitors
+609,UPS battery,Hazardous & Lamps
+610,Notebook display,Screens & Monitors
+611,Notebook display,Screens & Monitors
+612,Tablet display cracked,Screens & Monitors
+613,Old CFL lamp,Hazardous & Lamps
+614,Refrigerator cooling issue,Large Equipment
+615,UPS battery,Hazardous & Lamps
+616,Damaged rechargeable battery,Hazardous & Lamps
+617,Office monitor screen,Screens & Monitors
+618,LED television,Screens & Monitors
+619,CRT TV old model,Screens & Monitors
+620,Vacuum cleaner,Small IT & General Equipment
+621,Notebook display,Screens & Monitors
+622,Electric kettle,Small IT & General Equipment
+623,Electric stove,Large Equipment
+624,Mercury lamp,Hazardous & Lamps
+625,LED television,Screens & Monitors
+626,Broken LED bulb,Hazardous & Lamps
+627,Microwave oven,Small IT & General Equipment
+628,LED television,Screens & Monitors
+629,Freezer unit,Large Equipment
+630,Broken laptop screen,Screens & Monitors
+631,Computer CPU cabinet,Small IT & General Equipment
+632,Air conditioner outdoor unit,Large Equipment
+633,AA alkaline battery,Hazardous & Lamps
+634,Touchscreen panel,Screens & Monitors
+635,Dishwasher machine,Large Equipment
+636,Fluorescent tube light,Hazardous & Lamps
+637,Mercury lamp,Hazardous & Lamps
+638,Dishwasher machine,Large Equipment
+639,Fluorescent tube light,Hazardous & Lamps
+640,Vacuum cleaner,Small IT & General Equipment
+641,Clothes dryer,Large Equipment
+642,Heat pump machine,Large Equipment
+643,Electric stove,Large Equipment
+644,Mobile phone not switching on,Small IT & General Equipment
+645,Router device,Small IT & General Equipment
+646,Power bank battery,Hazardous & Lamps
+647,Air conditioner outdoor unit,Large Equipment
+648,Electronic toy,Small IT & General Equipment
+649,Electronic toy,Small IT & General Equipment
+650,Heat pump machine,Large Equipment
+651,Notebook display,Screens & Monitors
+652,Broken LED bulb,Hazardous & Lamps
+653,Power bank battery,Hazardous & Lamps
+654,Computer CPU cabinet,Small IT & General Equipment
+655,Electronic toy,Small IT & General Equipment
+656,Large office printer,Large Equipment
+657,Laptop motherboard,Small IT & General Equipment
+658,Mercury lamp,Hazardous & Lamps
+659,Air conditioner outdoor unit,Large Equipment
+660,Keyboard and mouse,Small IT & General Equipment
+661,Broken laptop screen,Screens & Monitors
+662,Large office printer,Large Equipment
+663,Air conditioner outdoor unit,Large Equipment
+664,CRT TV old model,Screens & Monitors
+665,Mobile phone not switching on,Small IT & General Equipment
+666,Notebook display,Screens & Monitors
+667,CRT TV old model,Screens & Monitors
+668,Mercury lamp,Hazardous & Lamps
+669,Electric stove,Large Equipment
+670,Heat pump machine,Large Equipment
+671,Mercury lamp,Hazardous & Lamps
+672,Dishwasher machine,Large Equipment
+673,Broken LED bulb,Hazardous & Lamps
+674,Clothes dryer,Large Equipment
+675,Electric kettle,Small IT & General Equipment
+676,Industrial copier,Large Equipment
+677,Laptop motherboard,Small IT & General Equipment
+678,Laptop motherboard,Small IT & General Equipment
+679,Heat pump machine,Large Equipment
+680,Heat pump machine,Large Equipment
+681,Broken LED bulb,Hazardous & Lamps
+682,Fluorescent tube light,Hazardous & Lamps
+683,Clothes dryer,Large Equipment
+684,Mobile phone not switching on,Small IT & General Equipment
+685,Laptop motherboard,Small IT & General Equipment
+686,Washing machine not working,Large Equipment
+687,Washing machine not working,Large Equipment
+688,Washing machine not working,Large Equipment
+689,Freezer unit,Large Equipment
+690,Laptop motherboard,Small IT & General Equipment
+691,CRT TV old model,Screens & Monitors
+692,LED television,Screens & Monitors
+693,Laptop motherboard,Small IT & General Equipment
+694,CRT TV old model,Screens & Monitors
+695,Air conditioner outdoor unit,Large Equipment
+696,Clothes dryer,Large Equipment
+697,Mercury lamp,Hazardous & Lamps
+698,AA alkaline battery,Hazardous & Lamps
+699,Electronic toy,Small IT & General Equipment
+700,Electric stove,Large Equipment
+701,LCD monitor 24 inch,Screens & Monitors
+702,Electronic toy,Small IT & General Equipment
+703,Freezer unit,Large Equipment
+704,Broken laptop screen,Screens & Monitors
+705,Touchscreen panel,Screens & Monitors
+706,AA alkaline battery,Hazardous & Lamps
+707,LED television,Screens & Monitors
+708,Microwave oven,Small IT & General Equipment
+709,Button cell battery,Hazardous & Lamps
+710,Fluorescent tube light,Hazardous & Lamps
+711,Router device,Small IT & General Equipment
+712,Old CFL lamp,Hazardous & Lamps
+713,Dishwasher machine,Large Equipment
+714,Air conditioner outdoor unit,Large Equipment
+715,Electronic toy,Small IT & General Equipment
+716,Heat pump machine,Large Equipment
+717,Electric kettle,Small IT & General Equipment
+718,Laptop motherboard,Small IT & General Equipment
+719,Refrigerator cooling issue,Large Equipment
+720,Dishwasher machine,Large Equipment
+721,Refrigerator cooling issue,Large Equipment
+722,Keyboard and mouse,Small IT & General Equipment
+723,UPS battery,Hazardous & Lamps
+724,Fluorescent tube light,Hazardous & Lamps
+725,UPS battery,Hazardous & Lamps
+726,Broken LED bulb,Hazardous & Lamps
+727,Desktop computer monitor,Screens & Monitors
+728,UPS battery,Hazardous & Lamps
+729,Lithium ion battery from mobile phone,Hazardous & Lamps
+730,Broken LED bulb,Hazardous & Lamps
+731,Dishwasher machine,Large Equipment
+732,CRT TV old model,Screens & Monitors
+733,Electric kettle,Small IT & General Equipment
+734,Electric kettle,Small IT & General Equipment
+735,Air conditioner outdoor unit,Large Equipment
+736,Keyboard and mouse,Small IT & General Equipment
+737,Notebook display,Screens & Monitors
+738,Refrigerator cooling issue,Large Equipment
+739,Refrigerator cooling issue,Large Equipment
+740,Freezer unit,Large Equipment
+741,Washing machine not working,Large Equipment
+742,Heat pump machine,Large Equipment
+743,Tablet display cracked,Screens & Monitors
+744,CRT TV old model,Screens & Monitors
+745,Lithium ion battery from mobile phone,Hazardous & Lamps
+746,Dishwasher machine,Large Equipment
+747,Broken LED bulb,Hazardous & Lamps
+748,Damaged rechargeable battery,Hazardous & Lamps
+749,Power bank battery,Hazardous & Lamps
+750,Mercury lamp,Hazardous & Lamps
+751,Notebook display,Screens & Monitors
+752,Tablet display cracked,Screens & Monitors
+753,Keyboard and mouse,Small IT & General Equipment
+754,Large office printer,Large Equipment
+755,Laptop motherboard,Small IT & General Equipment
+756,Dishwasher machine,Large Equipment
+757,Tablet display cracked,Screens & Monitors
+758,Tablet display cracked,Screens & Monitors
+759,Office monitor screen,Screens & Monitors
+760,UPS battery,Hazardous & Lamps
+761,Dishwasher machine,Large Equipment
+762,Lithium ion battery from mobile phone,Hazardous & Lamps
+763,Button cell battery,Hazardous & Lamps
+764,LCD monitor 24 inch,Screens & Monitors
+765,Clothes dryer,Large Equipment
+766,Fluorescent tube light,Hazardous & Lamps
+767,UPS battery,Hazardous & Lamps
+768,Damaged rechargeable battery,Hazardous & Lamps
+769,CRT TV old model,Screens & Monitors
+770,Office monitor screen,Screens & Monitors
+771,Flat screen TV,Screens & Monitors
+772,LED television,Screens & Monitors
+773,Heat pump machine,Large Equipment
+774,Industrial copier,Large Equipment
+775,AA alkaline battery,Hazardous & Lamps
+776,Touchscreen panel,Screens & Monitors
+777,Computer CPU cabinet,Small IT & General Equipment
+778,Flat screen TV,Screens & Monitors
+779,Damaged rechargeable battery,Hazardous & Lamps
+780,Large office printer,Large Equipment
+781,Electronic toy,Small IT & General Equipment
+782,Lithium ion battery from mobile phone,Hazardous & Lamps
+783,Desktop computer monitor,Screens & Monitors
+784,Broken LED bulb,Hazardous & Lamps
+785,Phone charger cable,Small IT & General Equipment
+786,AA alkaline battery,Hazardous & Lamps
+787,Desktop computer monitor,Screens & Monitors
+788,Heat pump machine,Large Equipment
+789,Vacuum cleaner,Small IT & General Equipment
+790,LCD monitor 24 inch,Screens & Monitors
+791,Desktop computer monitor,Screens & Monitors
+792,Fluorescent tube light,Hazardous & Lamps
+793,UPS battery,Hazardous & Lamps
+794,Large office printer,Large Equipment
+795,Old CFL lamp,Hazardous & Lamps
+796,AA alkaline battery,Hazardous & Lamps
+797,Old CFL lamp,Hazardous & Lamps
+798,Flat screen TV,Screens & Monitors
+799,Vacuum cleaner,Small IT & General Equipment
+800,Refrigerator cooling issue,Large Equipment
+801,Electric kettle,Small IT & General Equipment
+802,AA alkaline battery,Hazardous & Lamps
+803,Air conditioner outdoor unit,Large Equipment
+804,Tablet display cracked,Screens & Monitors
+805,CRT TV old model,Screens & Monitors
+806,Broken laptop screen,Screens & Monitors
+807,Clothes dryer,Large Equipment
+808,Desktop computer monitor,Screens & Monitors
+809,Freezer unit,Large Equipment
+810,Flat screen TV,Screens & Monitors
+811,Button cell battery,Hazardous & Lamps
+812,AA alkaline battery,Hazardous & Lamps
+813,Heat pump machine,Large Equipment
+814,Computer CPU cabinet,Small IT & General Equipment
+815,Broken LED bulb,Hazardous & Lamps
+816,Clothes dryer,Large Equipment
+817,Button cell battery,Hazardous & Lamps
+818,Broken LED bulb,Hazardous & Lamps
+819,Computer CPU cabinet,Small IT & General Equipment
+820,Phone charger cable,Small IT & General Equipment
+821,Air conditioner outdoor unit,Large Equipment
+822,CRT TV old model,Screens & Monitors
+823,Clothes dryer,Large Equipment
+824,Air conditioner outdoor unit,Large Equipment
+825,Broken LED bulb,Hazardous & Lamps
+826,Laptop motherboard,Small IT & General Equipment
+827,Electric stove,Large Equipment
+828,Laptop motherboard,Small IT & General Equipment
+829,Router device,Small IT & General Equipment
+830,Lithium ion battery from mobile phone,Hazardous & Lamps
+831,Mercury lamp,Hazardous & Lamps
+832,Computer CPU cabinet,Small IT & General Equipment
+833,CRT TV old model,Screens & Monitors
+834,Refrigerator cooling issue,Large Equipment
+835,Lithium ion battery from mobile phone,Hazardous & Lamps
+836,CRT TV old model,Screens & Monitors
+837,LED television,Screens & Monitors
+838,Electric stove,Large Equipment
+839,Flat screen TV,Screens & Monitors
+840,Large office printer,Large Equipment
+841,Industrial copier,Large Equipment
+842,Electric kettle,Small IT & General Equipment
+843,Old CFL lamp,Hazardous & Lamps
+844,Tablet display cracked,Screens & Monitors
+845,Electronic toy,Small IT & General Equipment
+846,Old CFL lamp,Hazardous & Lamps
+847,UPS battery,Hazardous & Lamps
+848,Touchscreen panel,Screens & Monitors
+849,Mobile phone not switching on,Small IT & General Equipment
+850,Laptop motherboard,Small IT & General Equipment
+851,Router device,Small IT & General Equipment
+852,LCD monitor 24 inch,Screens & Monitors
+853,Vacuum cleaner,Small IT & General Equipment
+854,Industrial copier,Large Equipment
+855,Air conditioner outdoor unit,Large Equipment
+856,Desktop computer monitor,Screens & Monitors
+857,Mercury lamp,Hazardous & Lamps
+858,Router device,Small IT & General Equipment
+859,Broken laptop screen,Screens & Monitors
+860,Power bank battery,Hazardous & Lamps
+861,LED television,Screens & Monitors
+862,Old CFL lamp,Hazardous & Lamps
+863,Broken laptop screen,Screens & Monitors
+864,Damaged rechargeable battery,Hazardous & Lamps
+865,Washing machine not working,Large Equipment
+866,AA alkaline battery,Hazardous & Lamps
+867,LED television,Screens & Monitors
+868,Freezer unit,Large Equipment
+869,UPS battery,Hazardous & Lamps
+870,Mercury lamp,Hazardous & Lamps
+871,Heat pump machine,Large Equipment
+872,Computer CPU cabinet,Small IT & General Equipment
+873,AA alkaline battery,Hazardous & Lamps
+874,Office monitor screen,Screens & Monitors
+875,Notebook display,Screens & Monitors
+876,Flat screen TV,Screens & Monitors
+877,UPS battery,Hazardous & Lamps
+878,Phone charger cable,Small IT & General Equipment
+879,Freezer unit,Large Equipment
+880,Vacuum cleaner,Small IT & General Equipment
+881,Notebook display,Screens & Monitors
+882,Refrigerator cooling issue,Large Equipment
+883,Phone charger cable,Small IT & General Equipment
+884,Electric kettle,Small IT & General Equipment
+885,Old CFL lamp,Hazardous & Lamps
+886,Notebook display,Screens & Monitors
+887,Mobile phone not switching on,Small IT & General Equipment
+888,Lithium ion battery from mobile phone,Hazardous & Lamps
+889,Air conditioner outdoor unit,Large Equipment
+890,Electric stove,Large Equipment
+891,Computer CPU cabinet,Small IT & General Equipment
+892,UPS battery,Hazardous & Lamps
+893,Phone charger cable,Small IT & General Equipment
+894,Industrial copier,Large Equipment
+895,Phone charger cable,Small IT & General Equipment
+896,Fluorescent tube light,Hazardous & Lamps
+897,Old CFL lamp,Hazardous & Lamps
+898,Microwave oven,Small IT & General Equipment
+899,Desktop computer monitor,Screens & Monitors
+900,Electric kettle,Small IT & General Equipment
+901,Vacuum cleaner,Small IT & General Equipment
+902,Computer CPU cabinet,Small IT & General Equipment
+903,LCD monitor 24 inch,Screens & Monitors
+904,Power bank battery,Hazardous & Lamps
+905,CRT TV old model,Screens & Monitors
+906,Industrial copier,Large Equipment
+907,Broken LED bulb,Hazardous & Lamps
+908,Fluorescent tube light,Hazardous & Lamps
+909,LCD monitor 24 inch,Screens & Monitors
+910,Freezer unit,Large Equipment
+911,Laptop motherboard,Small IT & General Equipment
+912,LCD monitor 24 inch,Screens & Monitors
+913,Washing machine not working,Large Equipment
+914,Electric stove,Large Equipment
+915,Mobile phone not switching on,Small IT & General Equipment
+916,Electric stove,Large Equipment
+917,Tablet display cracked,Screens & Monitors
+918,Touchscreen panel,Screens & Monitors
+919,Laptop motherboard,Small IT & General Equipment
+920,Industrial copier,Large Equipment
+921,Broken laptop screen,Screens & Monitors
+922,Broken LED bulb,Hazardous & Lamps
+923,Heat pump machine,Large Equipment
+924,LCD monitor 24 inch,Screens & Monitors
+925,Damaged rechargeable battery,Hazardous & Lamps
+926,Heat pump machine,Large Equipment
+927,Desktop computer monitor,Screens & Monitors
+928,Lithium ion battery from mobile phone,Hazardous & Lamps
+929,Microwave oven,Small IT & General Equipment
+930,Large office printer,Large Equipment
+931,Old CFL lamp,Hazardous & Lamps
+932,Power bank battery,Hazardous & Lamps
+933,Refrigerator cooling issue,Large Equipment
+934,Desktop computer monitor,Screens & Monitors
+935,UPS battery,Hazardous & Lamps
+936,Microwave oven,Small IT & General Equipment
+937,Keyboard and mouse,Small IT & General Equipment
+938,Electronic toy,Small IT & General Equipment
+939,Industrial copier,Large Equipment
+940,Button cell battery,Hazardous & Lamps
+941,Washing machine not working,Large Equipment
+942,Office monitor screen,Screens & Monitors
+943,Tablet display cracked,Screens & Monitors
+944,Electric kettle,Small IT & General Equipment
+945,Keyboard and mouse,Small IT & General Equipment
+946,Notebook display,Screens & Monitors
+947,Office monitor screen,Screens & Monitors
+948,Refrigerator cooling issue,Large Equipment
+949,Lithium ion battery from mobile phone,Hazardous & Lamps
+950,Laptop motherboard,Small IT & General Equipment
+951,Mobile phone not switching on,Small IT & General Equipment
+952,Mobile phone not switching on,Small IT & General Equipment
+953,Electric kettle,Small IT & General Equipment
+954,Air conditioner outdoor unit,Large Equipment
+955,Air conditioner outdoor unit,Large Equipment
+956,Broken LED bulb,Hazardous & Lamps
+957,Dishwasher machine,Large Equipment
+958,Electric kettle,Small IT & General Equipment
+959,Keyboard and mouse,Small IT & General Equipment
+960,Tablet display cracked,Screens & Monitors
+961,Phone charger cable,Small IT & General Equipment
+962,Mobile phone not switching on,Small IT & General Equipment
+963,Phone charger cable,Small IT & General Equipment
+964,Mobile phone not switching on,Small IT & General Equipment
+965,Freezer unit,Large Equipment
+966,Touchscreen panel,Screens & Monitors
+967,LCD monitor 24 inch,Screens & Monitors
+968,Broken LED bulb,Hazardous & Lamps
+969,Notebook display,Screens & Monitors
+970,Broken LED bulb,Hazardous & Lamps
+971,AA alkaline battery,Hazardous & Lamps
+972,Office monitor screen,Screens & Monitors
+973,Mobile phone not switching on,Small IT & General Equipment
+974,Vacuum cleaner,Small IT & General Equipment
+975,Refrigerator cooling issue,Large Equipment
+976,Computer CPU cabinet,Small IT & General Equipment
+977,Broken laptop screen,Screens & Monitors
+978,Mobile phone not switching on,Small IT & General Equipment
+979,Old CFL lamp,Hazardous & Lamps
+980,Computer CPU cabinet,Small IT & General Equipment
+981,Heat pump machine,Large Equipment
+982,Washing machine not working,Large Equipment
+983,Power bank battery,Hazardous & Lamps
+984,Broken laptop screen,Screens & Monitors
+985,Computer CPU cabinet,Small IT & General Equipment
+986,Heat pump machine,Large Equipment
+987,Clothes dryer,Large Equipment
+988,Tablet display cracked,Screens & Monitors
+989,Lithium ion battery from mobile phone,Hazardous & Lamps
+990,Notebook display,Screens & Monitors
+991,Freezer unit,Large Equipment
+992,Fluorescent tube light,Hazardous & Lamps
+993,Keyboard and mouse,Small IT & General Equipment
+994,Router device,Small IT & General Equipment
+995,Mercury lamp,Hazardous & Lamps
+996,Electric stove,Large Equipment
+997,Router device,Small IT & General Equipment
+998,Desktop computer monitor,Screens & Monitors
+999,Desktop computer monitor,Screens & Monitors
+1000,Desktop computer monitor,Screens & Monitors

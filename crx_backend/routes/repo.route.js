@@ -24,32 +24,30 @@ const upload = multer({
 });
 
 router.post("/waste", upload.single("file"), async (req, res) => {
-  const { ownerAddress, title, description, domain, contributors } = req.body;
+  const { ownerAddress, name, wasteType, quantity, location, description} = req.body;
   const file = req.file;
 
   try {
-    let imageIpfsUri = "";
-    let imageHttpUri = "";
+    let fileIpfsUri = "";
+    let fileHttpUri = "";
 
     if (file) {
-      imageIpfsUri = await uploadFileToIPFS(file.path);
+      fileIpfsUri = await uploadFileToIPFS(file.path);
       await fs.unlink(file.path);
+      console.log(`🧹 Temp file deleted: ${file.path}`);
 
-      imageHttpUri = imageIpfsUri.replace(
-        "ipfs://",
-        "https://ipfs.io/ipfs/"
-      );
+      fileHttpUri = fileIpfsUri.replace("ipfs://", "https://ipfs.io/ipfs/");
     }
 
      const metadata = {
-      name: `Waste Request - ${wasteType}`,
+      name,
       description,
       image: fileHttpUri,
       attributes: [
+        {trait_type: "Owner", value: ownerAddress },
         { trait_type: "Waste Type", value: wasteType },
         { trait_type: "Quantity", value: quantity },
         { trait_type: "Location", value: location },
-        { trait_type: "Status", value: "Requested" },
         {
           trait_type: "Created At",
           value: new Date().toISOString(),
@@ -57,18 +55,16 @@ router.post("/waste", upload.single("file"), async (req, res) => {
       ],
     };
 
-    const metadataIpfsUri = await uploadMetadataToIPFS(metadata);
-    const metadataHttpUri = metadataIpfsUri.replace(
+    const metadataUri = await uploadMetadataToIPFS(metadata);
+    const metadataHttpUri = metadataUri.replace(
       "ipfs://",
       "https://ipfs.io/ipfs/"
     );
 
     res.json({
       success: true,
-      metadataIpfsUri,   
-      metadataHttpUri,   
+      metadataUri: metadataUri   
     });
-
   } catch (error) {
     console.error("❌ Upload failed:", error);
     res.status(500).json({

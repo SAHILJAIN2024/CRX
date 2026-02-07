@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Code Block",
-  description: "Github on Blockchain",
+  title: "CRX",
+  description: "A decentralized waste management system",
 };
 
 export default function RootLayout({

@@ -1,56 +1,68 @@
 "use client";
 
-import React, { useState, useEffect, ChangeEvent } from "react";
+import React, { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import { motion, AnimatePresence } from "framer-motion";
 import { useWallet } from "../components/WalletContext";
 import CONTRACT_ABI from "../contractABI/contractABI.json";
 
 /* ---------------- Helpers ---------------- */
-const normalizeToIpfsUri = (input: string): string => {
-  if (!input) return "";
-  if (input.startsWith("ipfs://")) return input;
-  const match = input.match(/\/ipfs\/([^/?#]+)/);
-  if (match?.[1]) return `ipfs://${match[1]}`;
-  return `ipfs://${input.replace(/^\/+/, "")}`;
-};
 
 const ipfsToHttp = (ipfsUri: string) =>
-  `https://cloudflare-ipfs.com/ipfs/${ipfsUri.replace("ipfs://", "")}`;
+  `https://ipfs.io/ipfs/${ipfsUri.replace("ipfs://", "")}`;
 
 /* ---------------- Main Component ---------------- */
 
 export default function Commit() {
   const { address } = useWallet();
   const [contract, setContract] = useState<ethers.Contract | null>(null);
-  const [contributor, setContributor] = useState<string>("");
-  const [message, setMessage] = useState<string>("");
+
+  const [repoID, setRepoID] = useState("");
+  const [contributor, setContributor] = useState("");
+  const [message, setMessage] = useState("");
   const [file, setFile] = useState<File | null>(null);
-  const [repoID, setRepoID] = useState<string>("");
-  const [metadataUri, setMetadataUri] = useState<string>("");
-  const [status, setStatus] = useState<string>("");
-  const [loading, setLoading] = useState<boolean>(false);
+
+  const [metadataUri, setMetadataUri] = useState("");
+  const [status, setStatus] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  /* ---------------- Contract Init ---------------- */
 
   useEffect(() => {
     if (!address) return;
+
     const initContract = async () => {
       try {
-        const contractAddress = "0x340E18FF8E4De6958977b2Bd8dF9A3bAB51ddD09";
-        const provider = new ethers.BrowserProvider((window as any).ethereum);
+        const provider = new ethers.BrowserProvider(
+          (window as any).ethereum
+        );
         const signer = await provider.getSigner();
-        const instance = new ethers.Contract(contractAddress, CONTRACT_ABI.abi, signer);
+
+        const instance = new ethers.Contract(
+          "0x340E18FF8E4De6958977b2Bd8dF9A3bAB51ddD09",
+          CONTRACT_ABI.abi,
+          signer
+        );
+
         setContract(instance);
       } catch (err) {
         console.error("❌ Contract Init Error:", err);
       }
     };
+
     initContract();
   }, [address]);
 
+  /* ---------------- Mint Commit ---------------- */
+
   const mintCommit = async () => {
-    if (!address) return alert("⚠️ Connect wallet");
-    if (!contributor || !message || !file || !repoID) {
-      setStatus("⚠️ REQUIRED: ALL FIELDS");
+    if (!address) {
+      setStatus("⚠️ WALLET NOT CONNECTED");
+      return;
+    }
+
+    if (!repoID || !contributor || !message || !file) {
+      setStatus("⚠️ ALL FIELDS REQUIRED");
       return;
     }
 
@@ -59,10 +71,10 @@ export default function Commit() {
       setStatus("UPLOADING TO IPFS...");
 
       const formData = new FormData();
-      formData.append("file", file);
-      formData.append("message", message);
       formData.append("ownerAddress", address);
       formData.append("contributor", contributor);
+      formData.append("message", message);
+      formData.append("file", file);
 
       const response = await fetch("http://localhost:5000/api/commit", {
         method: "POST",
@@ -70,134 +82,152 @@ export default function Commit() {
       });
 
       const data = await response.json();
-      if (!response.ok) throw new Error(data.message || "Upload failed");
+      if (!response.ok || !data.success) {
+        throw new Error(data.error || "UPLOAD_FAILED");
+      }
 
-      const canonicalUri = normalizeToIpfsUri(data.metadataUri);
-      setMetadataUri(canonicalUri);
+      setMetadataUri(data.metadataUri);
 
       setStatus("MINTING ON-CHAIN COMMIT...");
-      const tx = await contract?.mintCommit(address, Number(repoID), canonicalUri);
+
+      const tx = await contract?.mintCommit(
+        address,
+        Number(repoID),
+        data.metadataUri
+      );
       await tx?.wait();
 
       setStatus("✅ COMMIT VERIFIED ON-CHAIN");
-      setContributor(""); setMessage(""); setFile(null); setRepoID("");
+
+      // Reset
+      setRepoID("");
+      setContributor("");
+      setMessage("");
+      setFile(null);
     } catch (err: any) {
-      setStatus(`❌ ERROR: ${err?.reason || "MINT_FAILED"}`);
+      console.error(err);
+      setStatus(`❌ ERROR: ${err.message || "MINT_FAILED"}`);
     } finally {
       setLoading(false);
       setTimeout(() => setStatus(""), 5000);
     }
   };
 
+  /* ---------------- UI ---------------- */
+
   return (
-    <motion.div 
+    <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       className="max-w-xl mx-auto bg-zinc-900/40 backdrop-blur-2xl border border-white/5 rounded-[2.5rem] overflow-hidden shadow-2xl"
     >
       {/* Header */}
-      <div className="px-8 pt-10 pb-6 border-b border-white/5 bg-white/[0.01]">
-        <h2 className="text-3xl font-black tracking-tighter text-white flex items-center gap-3">
+      <div className="px-8 pt-10 pb-6 border-b border-white/5">
+        <h2 className="text-3xl font-black tracking-tighter flex items-center gap-3">
           <span className="text-emerald-500">⚡</span> MINT COMMIT
         </h2>
-        <p className="text-zinc-500 font-mono text-[10px] uppercase tracking-[0.3em] mt-2">Update Asset Lifecycle Data</p>
+        <p className="text-zinc-500 font-mono text-[10px] uppercase tracking-[0.3em] mt-2">
+          Update Asset Lifecycle Data
+        </p>
       </div>
 
       <div className="p-8 space-y-6">
-        {/* Wallet Status */}
-        <div className="bg-emerald-500/5 border border-emerald-500/10 rounded-xl px-4 py-3 flex items-center justify-between">
-          <span className="text-[10px] font-bold text-emerald-500/50 uppercase tracking-widest">Signer</span>
+
+        {/* Wallet */}
+        <div className="bg-emerald-500/5 border border-emerald-500/10 rounded-xl px-4 py-3 flex justify-between">
+          <span className="text-[10px] font-bold text-emerald-500/50 uppercase tracking-widest">
+            Signer
+          </span>
           <span className="text-xs font-mono text-emerald-400">
-            {address ? `${address.slice(0, 6)}...${address.slice(-4)}` : "AUTH_REQUIRED"}
+            {address
+              ? `${address.slice(0, 6)}...${address.slice(-4)}`
+              : "AUTH_REQUIRED"}
           </span>
         </div>
 
-        {/* Inputs Grid */}
+        {/* Inputs */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {[
-            { label: "Repository ID", val: repoID, set: setRepoID, ph: "ID (e.g. 1)" },
-            { label: "Contributor", val: contributor, set: setContributor, ph: "0x... or Name" },
+            { label: "Repository ID", val: repoID, set: setRepoID },
+            { label: "Contributor", val: contributor, set: setContributor },
           ].map((input, i) => (
             <div key={i} className="flex flex-col gap-1.5">
-              <label className="text-[10px] font-bold text-zinc-500 uppercase tracking-widest ml-1">{input.label}</label>
+              <label className="text-[10px] font-bold text-zinc-500 uppercase tracking-widest ml-1">
+                {input.label}
+              </label>
               <input
-                type="text"
-                placeholder={input.ph}
                 value={input.val}
                 onChange={(e) => input.set(e.target.value)}
-                className="w-full bg-white/5 border border-white/10 text-zinc-200 p-4 rounded-xl focus:outline-none focus:ring-1 focus:ring-emerald-500/50 transition-all placeholder:text-zinc-700"
+                className="bg-white/5 border border-white/10 p-4 rounded-xl text-zinc-200 focus:ring-emerald-500/50"
               />
             </div>
           ))}
         </div>
 
-        {/* Full Width Message */}
+        {/* Message */}
         <div className="flex flex-col gap-1.5">
-          <label className="text-[10px] font-bold text-zinc-500 uppercase tracking-widest ml-1">Commit Message</label>
+          <label className="text-[10px] font-bold text-zinc-500 uppercase tracking-widest ml-1">
+            Commit Message
+          </label>
           <input
-            type="text"
-            placeholder="e.g. Completed collection phase"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            className="w-full bg-white/5 border border-white/10 text-zinc-200 p-4 rounded-xl focus:outline-none focus:ring-1 focus:ring-emerald-500/50 transition-all placeholder:text-zinc-700"
+            className="bg-white/5 border border-white/10 p-4 rounded-xl text-zinc-200 focus:ring-emerald-500/50"
           />
         </div>
 
-        {/* File Dropzone Style */}
-        <div className="relative group">
-          <label className="text-[10px] font-bold text-zinc-500 uppercase tracking-widest ml-1 mb-1 block">Proof of Work (Attachment)</label>
-          <div className="relative flex items-center justify-center border-2 border-dashed border-white/10 rounded-2xl p-6 group-hover:border-emerald-500/30 group-hover:bg-emerald-500/[0.02] transition-all">
-            <input
-              type="file"
-              onChange={(e) => setFile(e.target.files?.[0] || null)}
-              className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
-            />
-            <div className="text-center">
-              <p className="text-sm font-mono text-zinc-500">
-                {file ? <span className="text-emerald-400 italic">ready: {file.name}</span> : "[ CLICK_TO_ATTACH_ASSET ]"}
-              </p>
-            </div>
-          </div>
+        {/* File */}
+        <div>
+          <label className="text-[10px] font-bold text-zinc-500 uppercase tracking-widest ml-1">
+            Proof of Work
+          </label>
+          <input
+            type="file"
+            onChange={(e) => setFile(e.target.files?.[0] || null)}
+            className="w-full text-sm mt-2"
+          />
         </div>
 
-        {/* Action Button */}
+        {/* Action */}
         <button
           onClick={mintCommit}
           disabled={loading}
-          className={`w-full py-5 rounded-2xl font-black uppercase tracking-widest text-sm transition-all shadow-xl 
-            ${loading 
-              ? "bg-zinc-800 text-zinc-600 cursor-wait" 
-              : "bg-emerald-500 text-black hover:bg-emerald-400 shadow-emerald-500/20 active:scale-[0.98]"
+          className={`w-full py-5 rounded-2xl font-black uppercase tracking-widest text-sm transition-all
+            ${
+              loading
+                ? "bg-zinc-800 text-zinc-600 cursor-wait"
+                : "bg-emerald-500 text-black hover:bg-emerald-400"
             }`}
         >
           {loading ? "INITIALIZING..." : "EXECUTE MINT"}
         </button>
 
-        {/* Status & Metadata */}
+        {/* Status */}
         <AnimatePresence>
           {status && (
-            <motion.p 
-              initial={{ opacity: 0 }} 
-              animate={{ opacity: 1 }} 
-              className="text-center text-[10px] font-mono text-emerald-500 uppercase tracking-widest animate-pulse"
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              className="text-center text-[10px] font-mono text-emerald-500 uppercase tracking-widest"
             >
               {status}
             </motion.p>
           )}
         </AnimatePresence>
-        
+
+        {/* Metadata */}
         {metadataUri && (
-          <div className="mt-2 space-y-2 pt-6 border-t border-white/5">
-            <a 
-              href={metadataUri} 
-              target="_blank" 
+          <div className="pt-6 border-t border-white/5 text-center">
+            <a
+              href={ipfsToHttp(metadataUri)}
+              target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 text-xs font-bold text-emerald-400 hover:text-white transition-colors uppercase tracking-widest"
+              className="text-xs font-bold text-emerald-400 hover:text-white uppercase tracking-widest"
             >
-              🌐 VIEW IPFS SOURCE
+              🌐 VIEW METADATA
             </a>
-            <p className="text-[9px] text-zinc-600 font-mono break-all text-center leading-relaxed">
-              GATEWAY_PREVIEW: {ipfsToHttp(metadataUri)}
+            <p className="text-[9px] text-zinc-600 font-mono break-all mt-2">
+              {metadataUri}
             </p>
           </div>
         )}
