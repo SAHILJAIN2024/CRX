@@ -29,8 +29,7 @@ const contract = new ethers.Contract(contractAddress, contractABI, wallet);
 
 const app = express();
 app.use(cors({
-  origin: "http://localhost:3000",
-  credentials: true
+  origin: "*", // or your frontend domain
 }));
 app.use(express.json());
 
