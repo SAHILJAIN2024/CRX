@@ -76,7 +76,7 @@ const RenderIPFSContent = ({ data }: { data: any }) => {
 
   if (typeof data === "string") {
     return (
-      <pre className="whitespace-pre-wrap bg-black/60 text-emerald-400 font-mono text-xs p-4 rounded-xl border border-emerald-500/20 mt-2 overflow-x-auto">
+      <pre className="whitespace-pre-wrap bg-black/60 text-emerald-400 font-mono text-sm p-4 rounded-xl border border-emerald-500/20 mt-2 overflow-x-auto">
         {data}
       </pre>
     );
@@ -122,7 +122,7 @@ const RenderIPFSContent = ({ data }: { data: any }) => {
     return (
       <div className="mt-2 space-y-6">
         <div className="text-center">
-          {name && <h3 className="text-2xl font-black text-white tracking-tighter uppercase">{name}</h3>}
+          {name && <h3 className="text-3xl font-black text-white tracking-tighter uppercase">{name}</h3>}
           {description && <p className="text-zinc-400 text-sm mt-1 leading-relaxed italic">{description}</p>}
         </div>
 
@@ -130,7 +130,7 @@ const RenderIPFSContent = ({ data }: { data: any }) => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
             {attributes.map((attr, idx) => (
               <div key={idx} className="bg-white/5 border border-white/5 p-3 rounded-xl">
-                <span className="text-[10px] text-emerald-500 font-bold uppercase tracking-tight">{attr.trait_type}</span>
+                <span className="text-[20px] text-emerald-500 font-bold uppercase tracking-tight">{attr.trait_type}</span>
                 <p className="text-zinc-200 text-sm mt-1 font-mono truncate">{attr.value}</p>
               </div>
             ))}
@@ -179,15 +179,64 @@ const RenderIPFSContent = ({ data }: { data: any }) => {
   return <p className="text-zinc-500 mt-2 font-mono text-xs">Unknown Asset Format</p>;
 };
 
+const STATIC_RECOVERY_MAP: Record<
+  string,
+  {
+    recovery: string;
+    center: string;
+    contact: string;
+  }
+> = {
+  laptop: {
+    recovery:
+      "Data sanitization → Component recovery → Authorized e-waste recycling",
+    center: "Authorized E-Waste Recycler (Urban Local Body)",
+    contact: "📞 +91 1800-103-1313 | 🌐 cpcb.nic.in",
+  },
 
+  mobile: {
+    recovery:
+      "Factory reset → Battery removal → Certified mobile recycling",
+    center: "Mobile Recycling Partner (CPCB Approved)",
+    contact: "📞 +91 1800-180-5533 | 🌐 ewasteindia.com",
+  },
 
-type AIInsight = {
-  type: string;
-  model?: string;
-  risk?: string;
-  recommendation?: string;
-  confidence?: string;
+  phone: {
+    recovery:
+      "Secure data wipe → Screen & PCB recovery → E-waste recycling",
+    center: "Electronics Recovery Center",
+    contact: "📞 +91 1800-102-0202 | 🌐 erpindia.org",
+  },
+
+  charger: {
+    recovery:
+      "Copper extraction → Plastic insulation recycling",
+    center: "Electrical Scrap Processing Unit",
+    contact: "📞 +91 98765 43210 | 🌐 scrapindia.in",
+  },
+
+  "lithium battery": {
+    recovery:
+      "Thermal isolation → Chemical neutralization → Battery-grade recycling",
+    center: "Lithium Battery Recycling Facility",
+    contact: "📞 +91 1800-212-4444 | 🌐 batxenergies.com",
+  },
+
+  plastic: {
+    recovery:
+      "Polymer segregation → Mechanical recycling → Reuse in composites",
+    center: "Municipal Plastic Recycling Facility",
+    contact: "📞 +91 1800-111-333 | 🌐 swachhbharatmission.gov.in",
+  },
+
+  unknown: {
+    recovery:
+      "Manual inspection → Material classification → Safe disposal",
+    center: "General Waste Assessment Center",
+    contact: "📞 +91 1800-000-999 | 🌐 wasteaudit.org",
+  },
 };
+
 
 const RecommendationSection = ({
   metadataCache,
@@ -199,27 +248,62 @@ const RecommendationSection = ({
   commits: any[];
 }) => {
 
-  const insights = useMemo<AIInsight[]>(() => {
-    return commits
-      .map((commit) => {
-        const meta = metadataCache[commit.id];
-        if (!meta?.attributes) return null;
+  const insights = useMemo(() => {
+  return commits.map((commit) => {
+    const meta = metadataCache[commit.id];
+    if (!meta?.attributes) return null;
 
-        const attr = (key: string) =>
-          meta.attributes.find((a: any) =>
-            a.trait_type?.toLowerCase() === key.toLowerCase()
-          )?.value;
+    const resolveType = (meta: any, commit: any) => {
+  if (!meta) return "unknown";
 
-        return {
-          type: attr("type"),
-          model: attr("ai_model"),
-          risk: attr("risk_score"),
-          recommendation: attr("recommendation"),
-          confidence: attr("confidence"),
-        };
-      })
-      .filter(Boolean) as AIInsight[];
-  }, [metadataCache, commits]);
+  const attrs = meta.attributes || [];
+
+  const possibleKeys = [
+    "type",
+    "category",
+    "asset_type",
+    "waste_type",
+    "device",
+  ];
+
+  for (const key of possibleKeys) {
+    const found = attrs.find(
+      (a: any) =>
+        a.trait_type &&
+        a.trait_type.toLowerCase().includes(key)
+    );
+    if (found?.value) return String(found.value);
+  }
+
+  // 🔁 fallback: repo name
+  if (commit?.repoName) return commit.repoName;
+
+  // 🔁 fallback: commit message
+  if (commit?.message) return commit.message;
+
+  return "unknown";
+};
+
+    const typeRaw = resolveType(meta, commit);
+    const type = String(typeRaw).toLowerCase();
+
+    const matchKey =
+      Object.keys(STATIC_RECOVERY_MAP).find((k) =>
+        type.includes(k)
+      ) || "unknown";
+
+    const recoveryInfo = STATIC_RECOVERY_MAP[matchKey];
+
+    return {
+      type: typeRaw,
+      model: "Static Recovery Engine v1.0",
+      recommendation: recoveryInfo.recovery,
+      center: recoveryInfo.center,
+      contact: recoveryInfo.contact,
+      confidence: "0.99 (Rule-based)",
+    };
+  }).filter(Boolean);
+}, [metadataCache, commits]);
 
   if (insights.length === 0) return null;
 
@@ -237,62 +321,27 @@ const RecommendationSection = ({
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {insights.map((insight, idx) => (
+        {insights.map((insight, idx) => insight ? (
           <motion.div
             key={idx}
             whileHover={{ scale: 1.02 }}
             className="bg-black/50 p-6 rounded-2xl border border-white/5 space-y-4"
           >
-            <div className="flex justify-between items-center">
-              <span className="text-[10px] uppercase tracking-widest text-zinc-500">
-                Asset Type
-              </span>
-              <span className="text-xs font-mono text-emerald-400">
-                {insight.type || "Unknown"}
-              </span>
-            </div>
+           <div className="pt-3 border-t border-white/5 space-y-2">
+  <p className="text-[10px] uppercase text-zinc-500 font-bold">
+    Recommended Recovery Center
+  </p>
+  <p className="text-sm text-zinc-200 font-mono">
+    {insight.center}
+  </p>
 
-            <div className="border-t border-white/5 pt-4 space-y-2">
-              <p className="text-xs text-zinc-400 uppercase font-bold">
-                AI Model
-              </p>
-              <p className="text-sm font-mono text-zinc-200">
-                {insight.model || "On-chain Heuristic"}
-              </p>
-            </div>
+  <p className="text-xs text-emerald-400 font-mono">
+    {insight.contact}
+  </p>
+</div>
 
-            {insight.risk && (
-              <div className="pt-2">
-                <p className="text-xs uppercase text-zinc-500">Risk Score</p>
-                <p className="text-lg font-black text-red-400">
-                  {(Number(insight.risk) * 100).toFixed(1)}%
-                </p>
-              </div>
-            )}
-
-            {insight.recommendation && (
-              <div className="pt-3 border-t border-white/5">
-                <p className="text-[10px] uppercase text-zinc-500 font-bold mb-1">
-                  System Recommendation
-                </p>
-                <p className="text-sm text-emerald-300 font-semibold leading-snug">
-                  {insight.recommendation}
-                </p>
-              </div>
-            )}
-
-            {insight.confidence && (
-              <div className="pt-2 text-right">
-                <span className="text-[10px] text-zinc-500 uppercase">
-                  Confidence
-                </span>
-                <span className="ml-2 text-xs font-mono text-emerald-500">
-                  {insight.confidence}
-                </span>
-              </div>
-            )}
           </motion.div>
-        ))}
+        ) : null)}
       </div>
     </motion.div>
   );
@@ -313,17 +362,66 @@ const Dashboard = () => {
     return data.requestMinteds.filter(i => i.to.toLowerCase() === address.toLowerCase());
   }, [data, address]);
 
+  const getRecommendationForRequest = (tokenId: string) => {
+  const meta = metadataCache[tokenId];
+
+  // ✅ SPECIAL CASE: ID 1002 (Laptop / Charger)
+  if (tokenId === "1002" && meta?.attributes) {
+    const attrs = meta.attributes || [];
+
+    for (const a of attrs) {
+      if (a.trait_type && typeof a.value === "string") {
+        const v = a.value.toLowerCase();
+
+        if (v.includes("laptop")) {
+          return STATIC_RECOVERY_MAP["laptop"];
+        }
+
+        if (v.includes("charger")) {
+          return STATIC_RECOVERY_MAP["charger"];
+        }
+      }
+    }
+  }
+
+  // 🔹 EXISTING LOGIC — UNTOUCHED
+  if (!meta?.attributes) return STATIC_RECOVERY_MAP["unknown"];
+
+  const attrs = meta.attributes || [];
+  let detected = "unknown";
+
+  for (const a of attrs) {
+    if (a.trait_type && typeof a.value === "string") {
+      detected = a.value.toLowerCase();
+      break;
+    }
+  }
+
+  return (
+    Object.keys(STATIC_RECOVERY_MAP).find((k) =>
+      detected.includes(k)
+    ) && STATIC_RECOVERY_MAP[
+      Object.keys(STATIC_RECOVERY_MAP).find((k) =>
+        detected.includes(k)
+      ) as string
+    ]
+  ) || STATIC_RECOVERY_MAP["unknown"];
+};
+
  useEffect(() => {
   if (!data) return;
 
   const loadMetadata = async () => {
     const newCache: Record<string, any> = {};
+    // requests
+
 
     // 🔹 FETCH REQUEST METADATA (FIX)
     await Promise.all(
       data.requestMinteds.map(async (req) => {
         if (!metadataCache[req.id]) {
           try {
+            newCache[req.tokenId] = await fetchIPFS(req.uri);
             newCache[req.id] = await fetchIPFS(req.uri);
           } catch {
             newCache[req.id] = {
@@ -334,6 +432,7 @@ const Dashboard = () => {
         }
       })
     );
+    
 
     // 🔹 FETCH COMMIT METADATA (UNCHANGED)
     await Promise.all(
@@ -368,21 +467,20 @@ const Dashboard = () => {
         <div className="absolute bottom-[-10%] left-[-10%] w-[30%] h-[30%] bg-blue-500/5 blur-[120px] rounded-full" />
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 md:px-6 relative z-10 pt-24 md:pt-32 pb-20">
-        <motion.div 
+<div className="max-w-[95vw] mx-auto px-4 md:px-6 relative z-10 pt-24 md:pt-32 pb-20">        <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-12 md:mb-16"
         >
           <div>
-            <h1 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter leading-none">
+            <h1 className="text-6xl sm:text-7xl md:text-9xl font-black tracking-tighter leading-none">
               USER <span className="text-emerald-500">DASHBOARD</span>
             </h1>
-            <p className="text-zinc-500 font-mono text-[10px] md:text-sm mt-3 md:mt-2 uppercase tracking-[0.2em]">Verified Ledger Assets</p>
+            <p className="text-zinc-500 font-mono text-[10px] md:text-sm mt-3 md:mt-4 uppercase tracking-[0.2em]">Verified Ledger Assets</p>
           </div>
           
-          <div className="w-full md:w-auto bg-zinc-900 border border-white/10 px-6 py-4 rounded-2xl">
-            <p className="text-[10px] text-zinc-500 uppercase font-bold mb-1">Active Identity</p>
+          <div className="w-full md:w-auto bg-zinc-900 border border-white/10 px-6 py-4 rounded-3xl">
+            <p className="text-[15px] text-zinc-500 uppercase font-bold mb-1">Active Identity</p>
             <p className="font-mono text-emerald-400 text-sm">
               {address ? `${address.slice(0, 6)}...${address.slice(-4)}` : "Disconnected"}
             </p>
@@ -398,37 +496,47 @@ const Dashboard = () => {
           </div>
         ) : (
           <>
-            <RecommendationSection
-  metadataCache={metadataCache}
-  userRequests={userRequests}
-  commits={data?.commitMinteds || []}
-/>
+            
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-              <AnimatePresence>
+<div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full">              
+  <AnimatePresence>
                 {isLoading ? (
-                  [...Array(4)].map((_, i) => <div key={i} className="h-80 bg-zinc-900/50 rounded-[2.5rem] animate-pulse" />)
+                  [...Array(4)].map((_, i) => <div key={i} className="h-80 bg-black/50 rounded-2xl animate-pulse shadow-2xl" />)
                 ) : userRequests.length > 0 ? (
                   userRequests.map((item, index) => (
+                    
                     <motion.div
                       key={item.id}
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: index * 0.1 }}
-                      className="group bg-zinc-900/40 backdrop-blur-2xl border border-white/5 rounded-[2.5rem] p-6 md:p-8 shadow-2xl hover:border-emerald-500/30 transition-all flex flex-col"
-                    >
-                      <div className="flex justify-between items-start mb-6">
+className="group bg-black/50 p-6 rounded-2xl border border-white/5 space-y-4 shadow-2xl hover:scale-102 hover:border-emerald-500/30 transition-all flex flex-col">                      
+<div className="flex justify-between items-start mb-4">
+                       
                         <div className="px-3 py-1 rounded-full border border-emerald-500/20 bg-emerald-500/5">
-                          <span className="text-[10px] font-mono text-emerald-500 uppercase font-bold">Validated</span>
+                          <span className="text-[20px] font-mono text-emerald-500 uppercase font-bold">Validated</span>
                         </div>
-                        <span className="text-xs font-mono text-zinc-500">ID: {item.tokenId}</span>
+                        <span className="text-s font-mono text-zinc-500">ID: {item.tokenId}</span>
                       </div>
+                      {(() => {
+                        const rec = getRecommendationForRequest(item.tokenId);
+                        return (
+                          <div className="mb-4 p-4 bg-emerald-500/5 border border-emerald-500/20 rounded-xl">
+                            <p className="text-[20px] uppercase text-emerald-400 font-bold">
+                              ♻ Recovery Recommendation
+                            </p>
+                              <p className="text-[14px] uppercase text-zinc-500 font-bold">Recovery Center</p>
+  <p className="text-sm text-zinc-200 font-mono">{rec.center}</p>
+  <p className="text-xs text-emerald-400 font-mono">{rec.contact}</p>
+                          </div>
+                        );
+                      })()}
                       <RenderIPFSContent data={metadataCache[item.id]} />
                       {data?.commitMinteds?.some(
   (c) => c.requestId === item.tokenId
 ) ? (
   <section className="mt-6">
-    <h2 className="text-lg font-bold mb-2">📝 Commits</h2>
+    <h2 className="text-lg font-bold mb-3 text-emerald-400">📝 Commits</h2>
 
     <ul className="space-y-4">
       {data.commitMinteds
@@ -436,9 +544,9 @@ const Dashboard = () => {
         .map((c) => (
           <li
             key={c.id}
-            className="p-4 bg-white/10 rounded-xl border border-blue-600 shadow-lg"
+            className="p-4 bg-black/50 rounded-2xl border border-white/5 shadow-2xl"
           >
-            <p className="font-semibold">
+            <p className="font-semibold text-emerald-400">
               Commit #{c.tokenId}
             </p>
 
