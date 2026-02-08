@@ -179,125 +179,124 @@ const RenderIPFSContent = ({ data }: { data: any }) => {
   return <p className="text-zinc-500 mt-2 font-mono text-xs">Unknown Asset Format</p>;
 };
 
-/* ---------------- Recommendations Logic ---------------- */
-/* ---------------- AI-Powered Recommendations ---------------- */
 
-// type AIInsight = {
-//   type: string;
-//   model?: string;
-//   risk?: string;
-//   recommendation?: string;
-//   confidence?: string;
-// };
 
-// const RecommendationSection = ({
-//   metadataCache,
-//   userRequests,
-//   commits,
-// }: {
-//   metadataCache: Record<string, any>;
-//   userRequests: any[];
-//   commits: any[];
-// }) => {
+type AIInsight = {
+  type: string;
+  model?: string;
+  risk?: string;
+  recommendation?: string;
+  confidence?: string;
+};
 
-//   const insights = useMemo<AIInsight[]>(() => {
-//     return commits
-//       .map((commit) => {
-//         const meta = metadataCache[commit.id];
-//         if (!meta?.attributes) return null;
+const RecommendationSection = ({
+  metadataCache,
+  userRequests,
+  commits,
+}: {
+  metadataCache: Record<string, any>;
+  userRequests: any[];
+  commits: any[];
+}) => {
 
-//         const attr = (key: string) =>
-//           meta.attributes.find((a: any) =>
-//             a.trait_type?.toLowerCase() === key.toLowerCase()
-//           )?.value;
+  const insights = useMemo<AIInsight[]>(() => {
+    return commits
+      .map((commit) => {
+        const meta = metadataCache[commit.id];
+        if (!meta?.attributes) return null;
 
-//         return {
-//           type: attr("type"),
-//           model: attr("ai_model"),
-//           risk: attr("risk_score"),
-//           recommendation: attr("recommendation"),
-//           confidence: attr("confidence"),
-//         };
-//       })
-//       .filter(Boolean) as AIInsight[];
-//   }, [metadataCache, commits]);
+        const attr = (key: string) =>
+          meta.attributes.find((a: any) =>
+            a.trait_type?.toLowerCase() === key.toLowerCase()
+          )?.value;
 
-//   if (insights.length === 0) return null;
+        return {
+          type: attr("type"),
+          model: attr("ai_model"),
+          risk: attr("risk_score"),
+          recommendation: attr("recommendation"),
+          confidence: attr("confidence"),
+        };
+      })
+      .filter(Boolean) as AIInsight[];
+  }, [metadataCache, commits]);
 
-//   return (
-//     <motion.div
-//       initial={{ opacity: 0, y: 20 }}
-//       animate={{ opacity: 1, y: 0 }}
-//       className="mb-12 p-8 rounded-[2.5rem] bg-emerald-500/5 border border-emerald-500/20 shadow-2xl"
-//     >
-//       <div className="flex items-center gap-3 mb-8">
-//         <span className="text-2xl">🤖</span>
-//         <h2 className="text-xl font-black font-mono uppercase tracking-widest text-emerald-400">
-//           AI SYSTEM INSIGHTS
-//         </h2>
-//       </div>
+  if (insights.length === 0) return null;
 
-//       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-//         {insights.map((insight, idx) => (
-//           <motion.div
-//             key={idx}
-//             whileHover={{ scale: 1.02 }}
-//             className="bg-black/50 p-6 rounded-2xl border border-white/5 space-y-4"
-//           >
-//             <div className="flex justify-between items-center">
-//               <span className="text-[10px] uppercase tracking-widest text-zinc-500">
-//                 Asset Type
-//               </span>
-//               <span className="text-xs font-mono text-emerald-400">
-//                 {insight.type || "Unknown"}
-//               </span>
-//             </div>
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      className="mb-12 p-8 rounded-[2.5rem] bg-emerald-500/5 border border-emerald-500/20 shadow-2xl"
+    >
+      <div className="flex items-center gap-3 mb-8">
+        <span className="text-2xl">🤖</span>
+        <h2 className="text-xl font-black font-mono uppercase tracking-widest text-emerald-400">
+          AI SYSTEM INSIGHTS
+        </h2>
+      </div>
 
-//             <div className="border-t border-white/5 pt-4 space-y-2">
-//               <p className="text-xs text-zinc-400 uppercase font-bold">
-//                 AI Model
-//               </p>
-//               <p className="text-sm font-mono text-zinc-200">
-//                 {insight.model || "On-chain Heuristic"}
-//               </p>
-//             </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {insights.map((insight, idx) => (
+          <motion.div
+            key={idx}
+            whileHover={{ scale: 1.02 }}
+            className="bg-black/50 p-6 rounded-2xl border border-white/5 space-y-4"
+          >
+            <div className="flex justify-between items-center">
+              <span className="text-[10px] uppercase tracking-widest text-zinc-500">
+                Asset Type
+              </span>
+              <span className="text-xs font-mono text-emerald-400">
+                {insight.type || "Unknown"}
+              </span>
+            </div>
 
-//             {insight.risk && (
-//               <div className="pt-2">
-//                 <p className="text-xs uppercase text-zinc-500">Risk Score</p>
-//                 <p className="text-lg font-black text-red-400">
-//                   {(Number(insight.risk) * 100).toFixed(1)}%
-//                 </p>
-//               </div>
-//             )}
+            <div className="border-t border-white/5 pt-4 space-y-2">
+              <p className="text-xs text-zinc-400 uppercase font-bold">
+                AI Model
+              </p>
+              <p className="text-sm font-mono text-zinc-200">
+                {insight.model || "On-chain Heuristic"}
+              </p>
+            </div>
 
-//             {insight.recommendation && (
-//               <div className="pt-3 border-t border-white/5">
-//                 <p className="text-[10px] uppercase text-zinc-500 font-bold mb-1">
-//                   System Recommendation
-//                 </p>
-//                 <p className="text-sm text-emerald-300 font-semibold leading-snug">
-//                   {insight.recommendation}
-//                 </p>
-//               </div>
-//             )}
+            {insight.risk && (
+              <div className="pt-2">
+                <p className="text-xs uppercase text-zinc-500">Risk Score</p>
+                <p className="text-lg font-black text-red-400">
+                  {(Number(insight.risk) * 100).toFixed(1)}%
+                </p>
+              </div>
+            )}
 
-//             {insight.confidence && (
-//               <div className="pt-2 text-right">
-//                 <span className="text-[10px] text-zinc-500 uppercase">
-//                   Confidence
-//                 </span>
-//                 <span className="ml-2 text-xs font-mono text-emerald-500">
-//                   {insight.confidence}
-//                 </span>
-//               </div>
-//             )}
-//           </motion.div>
-//         ))}
-//       </div>
-//     </motion.div>
-//   );
-// };
+            {insight.recommendation && (
+              <div className="pt-3 border-t border-white/5">
+                <p className="text-[10px] uppercase text-zinc-500 font-bold mb-1">
+                  System Recommendation
+                </p>
+                <p className="text-sm text-emerald-300 font-semibold leading-snug">
+                  {insight.recommendation}
+                </p>
+              </div>
+            )}
+
+            {insight.confidence && (
+              <div className="pt-2 text-right">
+                <span className="text-[10px] text-zinc-500 uppercase">
+                  Confidence
+                </span>
+                <span className="ml-2 text-xs font-mono text-emerald-500">
+                  {insight.confidence}
+                </span>
+              </div>
+            )}
+          </motion.div>
+        ))}
+      </div>
+    </motion.div>
+  );
+};
 
 /* ---------------- Dashboard ---------------- */
 const Dashboard = () => {
@@ -399,11 +398,11 @@ const Dashboard = () => {
           </div>
         ) : (
           <>
-            {/* <RecommendationSection
+            <RecommendationSection
   metadataCache={metadataCache}
   userRequests={userRequests}
   commits={data?.commitMinteds || []}
-/> */}
+/>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
               <AnimatePresence>

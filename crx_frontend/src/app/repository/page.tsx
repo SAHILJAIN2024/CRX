@@ -74,7 +74,7 @@ export default function Repository() {
       formData.append("description", description);
       formData.append("file", file);
 
-      const res = await fetch("http://localhost:5000/api/waste", {
+      const res = await fetch("https://crx-7rjl.onrender.com/api/waste", {
         method: "POST",
         body: formData,
       });
