@@ -43,13 +43,10 @@ app.use(express.json());
 
 app.use("/api",repo);
 app.use("/api",commit);
-
-
 const port = process.env.PORT || 5000;
 
-app.listen(port, () => {
-  console.log(`✅ Metadata uploader running at http://localhost:${port}`);
+app.listen(port, "0.0.0.0", () => {
+  console.log(`✅ Metadata uploader running on port ${port}`);
 });
-
 
 
