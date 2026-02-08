@@ -1,7 +1,7 @@
 # CRX 🌱💻
 
 ## 🎥 Demo & Live Platform
-- **Demo Video:** [Watch Here](https://YOUR_DEMO_VIDEO_LINK) 🎬  
+- **Demo Video:** [Watch Here](https://drive.google.com/file/d/1ALJztWrV57yWD7z3Fh2GncV61LzS4QUO/view?usp=sharing) 🎬  
 - **Live Platform:** [Try CRX](https://crx-fplj.vercel.app/) 🌐  
 
 ---
