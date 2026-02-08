@@ -28,8 +28,15 @@ const contract = new ethers.Contract(contractAddress, contractABI, wallet);
 
 
 const app = express();
+import cors from "cors";
+
 app.use(cors({
-  origin: "*", // or your frontend domain
+  origin: [
+    "http://localhost:3000",
+    "https://crx-fplj.vercel.app"
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
 }));
 app.use(express.json());
 
